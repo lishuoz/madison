@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { TopbarComponent } from './shared/topbar/topbar.component';
+import { LogobarComponent } from './shared/logobar/logobar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    TopbarComponent
+    TopbarComponent,
+    LogobarComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,17 @@
-<div class="bg-dark">
+<div class="bg-dark d-none d-lg-block">
   <div class="container d-flex justify-content-between align-items-center">
-    <div><i class="text-white fa-brands fa-facebook-f fa-lg"></i></div>
+    <div>
+      <a
+        href="https://www.facebook.com/Madison-Avenue-Window-Fashion-678049549258562/?tn-str=k*F"
+        title="Facebook"
+        target="_blank"
+        data-title
+        data-toggle="tooltip"
+        title
+        data-original-title="Facebook"
+        ><i class="text-white fa-brands fa-facebook-f fa-lg"></i
+      ></a>
+    </div>
     <div class="d-flex">
       <a
         [routerLink]="link?.url"
@@ -8,6 +19,60 @@
         *ngFor="let link of links"
         >{{ link?.name }}</a
       >
+    </div>
+  </div>
+</div>
+
+<div class="bg-dark d-lg-none">
+  <div
+    class="container d-flex flex-column justify-content-between align-items-center py-2"
+  >
+    <div class="mb-2">
+      <a
+        href="https://www.facebook.com/Madison-Avenue-Window-Fashion-678049549258562/?tn-str=k*F"
+        title="Facebook"
+        target="_blank"
+        data-title
+        data-toggle="tooltip"
+        title
+        data-original-title="Facebook"
+        ><i class="text-white fa-brands fa-facebook-f fa-lg"></i
+      ></a>
+    </div>
+    <div class="accordion w-100" id="accordionExample">
+      <div class="accordion-item rounded-0">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button py-1"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Go to...
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <ul class="list-group p-0 rounded-0">
+            <li
+              class="list-group-item"
+              *ngFor="let link of links"
+              [routerLink]="link?.url"
+              role="button"
+            >
+              <a class="px-1 text-dark text-decoration-none">{{
+                link?.name
+              }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>

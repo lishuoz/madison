@@ -1,1 +1,42 @@
-<p>navbar works!</p>
+<div class="bg-primary d-none d-lg-block">
+  <div class="container d-flex align-items-center">
+    <a
+      class="btn btn-dark btn-custom rounded-0 me-6"
+      routerLink="/get-a-quote"
+      role="button"
+      >{{ "Get a Quote" | uppercase }}</a
+    >
+    <a routerLink="/drapes" class="text-decoration-none text-white link me-6"
+      >Drapes</a
+    >
+    <a
+      routerLink="/window-shutters-oakville-burlington"
+      class="text-decoration-none text-white link me-6"
+      >Wood Shutters</a
+    >
+    <div
+      (mouseenter)="showCollection = true"
+      (mouseleave)="showCollection = false"
+    >
+      <a
+        routerLink="/the-maxxmar-collection"
+        class="text-decoration-none text-white link me-6"
+        >The Maxxmar Collection</a
+      >
+      <ul class="sub-menu list-group" *ngIf="showCollection">
+        <li class="list-group-item" role="button">
+          <a routerLink="/shades" aria-haspopup="true">Shades</a>
+        </li>
+        <li class="list-group-item">
+          <a routerLink="/blinds" aria-haspopup="true">Blinds</a>
+        </li>
+        <li class="list-group-item">
+          <a routerLink="/shutters" aria-haspopup="true">Shutters</a>
+        </li>
+        <li class="list-group-item">
+          <a routerLink="/window-panels" aria-haspopup="true">Window Panels</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
