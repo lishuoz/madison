@@ -1,1 +1,159 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Muli";
+  src: url("../src/assets/fonts/Muli-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$primary: #ef8101;
+$secondary: #747474;
+$black: #0a0a0a;
+$dark: #5c6770;
+
+$theme-colors: (
+  "primary": $primary,
+  "dark": $dark,
+  "black": $black,
+  "secondary": $secondary,
+);
+
+$headings-font-family: "Pontano Sans", Arial, Helvetica, sans-serif;
+$font-family-base: "Muli", Arial, Helvetica, sans-serif;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1140px,
+);
+
+$spacer: 1rem;
+
+$spacers: (
+  0: 0,
+
+  // 8px
+  1: $spacer * 0.5,
+
+  // 16px
+  2: $spacer,
+
+  // 24px
+  3: $spacer * 1.5,
+
+  // 32px
+  4: $spacer * 2,
+
+  // 40px
+  5: $spacer * 2.5,
+
+  // 48px
+  6: $spacer * 3,
+
+  // 56px
+  7: $spacer * 3.5,
+
+  // 64px
+  8: $spacer * 4,
+
+  // 72px
+  9: $spacer * 4.5,
+
+  // 80px
+  10: $spacer * 5,
+
+  // 88px
+  11: $spacer * 5.5,
+
+  // 96px
+  12: $spacer * 6,
+
+  // 128px
+  16: $spacer * 8,
+
+  24: $spacer * 12,
+);
+
+// p.subtitle {
+//   font-size: 14px;
+//   color: $warning;
+//   font-weight: 700;
+//   text-transform: uppercase;
+//   letter-spacing: 1.8px;
+// }
+
+// h2.title {
+//   font-size: 45px !important;
+//   font-weight: 600;
+//   letter-spacing: -1.8px;
+//   line-height: 50px;
+// }
+
+// p.text {
+//   color: $secondary;
+//   line-height: 28px;
+//   font-size: 17px;
+// }
+
+// @media (max-width: 992px) {
+//   p.subtitle {
+//     color: $warning;
+//     font-weight: 700;
+//     text-transform: uppercase;
+//     letter-spacing: 1.8px;
+//     font-size: 13px;
+//     line-height: 16px;
+//   }
+
+//   h2.title {
+//     font-size: 27px !important;
+//     font-weight: 600;
+//     line-height: 30px;
+//   }
+
+//   p.text {
+//     color: $secondary;
+//     line-height: 26px;
+//     font-size: 16px;
+//   }
+// }
+
+// .active {
+//   border-bottom: 2px solid $dark;
+// }
+
+// a.link {
+//   text-decoration: none;
+// }
+
+// a.link:hover {
+//   text-decoration: underline;
+// }
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+// .btn-primary:hover,
+// .btn-primary:focus,
+// .btn-primary:active,
+// .btn-primary.active {
+//   color: white;
+//   background-color: #1ba25b !important;
+//   border-color: #1ba25b !important;
+// }
+
+// // contact form submit button
+// .ButtonBase__Overlay-sc-p43e7i-4 {
+//   color: white !important;
+// }
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Pontano+Sans:wght@300;400;500;600;700&display=swap");
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+// @import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "~animate.css/animate.min.css";

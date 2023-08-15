@@ -1,0 +1,13 @@
+<div class="bg-dark">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div><i class="text-white fa-brands fa-facebook-f fa-lg"></i></div>
+    <div class="d-flex">
+      <a
+        [routerLink]="link?.url"
+        class="px-1 text-white text-decoration-none"
+        *ngFor="let link of links"
+        >{{ link?.name }}</a
+      >
+    </div>
+  </div>
+</div>
