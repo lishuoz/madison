@@ -40,14 +40,14 @@
       ></a>
     </div>
     <div class="accordion w-100" id="accordionExample">
-      <div class="accordion-item rounded-0">
+      <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
           <button
-            class="accordion-button py-1"
+            class="accordion-button py-1 collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseOne"
-            aria-expanded="true"
+            aria-expanded="false"
             aria-controls="collapseOne"
           >
             Go to...
@@ -55,20 +55,18 @@
         </h2>
         <div
           id="collapseOne"
-          class="accordion-collapse collapse show"
+          class="accordion-collapse collapse"
           aria-labelledby="headingOne"
           data-bs-parent="#accordionExample"
         >
-          <ul class="list-group p-0 rounded-0">
+          <ul class="list-group p-0">
             <li
               class="list-group-item"
               *ngFor="let link of links"
               [routerLink]="link?.url"
               role="button"
             >
-              <a class="px-1 text-dark text-decoration-none">{{
-                link?.name
-              }}</a>
+              <a class="text-dark text-decoration-none">{{ link?.name }}</a>
             </li>
           </ul>
         </div>

@@ -32,18 +32,17 @@
   line-height: 40px;
 }
 
-.list-group-item {
+.sub-menu > .list-group-item {
   line-height: 19px;
   color: #333333;
   font-size: 20px;
   background-color: #f2efef;
-  border-radius: 0;
   padding-top: 10px;
   padding-bottom: 10px;
   border: 1px solid #dcdadb;
 }
 
-.list-group-item > a {
+.sub-menu > .list-group-item > a {
   line-height: 19px;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
     border-color 0.2s ease-in-out, height 0s, line-height 0s;
