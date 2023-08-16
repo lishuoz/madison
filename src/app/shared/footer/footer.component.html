@@ -1,0 +1,140 @@
+<div class="bg-dark">
+  <div class="container py-4 px-4 px-lg-0">
+    <div class="row gx-8 gy-6">
+      <div class="col-12 col-lg-4">
+        <h4 class="widget-title">MADISON AVENUE WINDOW FASHION</h4>
+        <ul class="ps-0">
+          <li
+            class="no-bullet list-item pb-1"
+            *ngFor="let link of links"
+            [routerLink]="link?.url"
+            role="button"
+          >
+            <a class="text-white text-decoration-none">{{ link?.name }}</a>
+          </li>
+        </ul>
+        <div class="mb-3 text-center">
+          <a routerLink="/">
+            <img
+              width="300"
+              height="115"
+              src="assets/images/Maxxmar_Logo_副本-300x115.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="">
+            <img
+              width="300"
+              height="162"
+              src="assets/images/Maxxmar-made-in-canada-logo_副本-300x162.png"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <h4 class="widget-title">ABOUT US</h4>
+        <p>
+          Madison Avenue Window Fashion is a family run company, and we strive
+          to treat our customers like family at every opportunity. It’s this
+          guiding principle that shapes our belief that the true success in
+          business is built by providing our clients an unrivaled experience at
+          every stage of the buying cycle.
+        </p>
+        <p>
+          <strong>Address</strong>: 150 Oak Park Blvd Unit 3,<br />
+          Oakville, ON L6H 0E7
+        </p>
+        <p>
+          <strong>Phone</strong>:
+          <a href="tel:+16473330303" class="text-white text-decoration-none"
+            >647-333-0303</a
+          >
+        </p>
+        <div>
+          <img
+            width="276"
+            height="275"
+            src="assets/images/Maxxmar35year.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <h4 class="widget-title">OUR PRODUCTS</h4>
+        <ul class="ps-0">
+          <li
+            class="no-bullet list-item pb-1"
+            routerLink="/get-a-quote"
+            role="button"
+          >
+            <a class="text-white text-decoration-none">Get a Free Quote</a>
+          </li>
+          <li
+            class="no-bullet list-item pb-1"
+            routerLink="/drapes"
+            role="button"
+          >
+            <a class="text-white text-decoration-none">Drapes</a>
+          </li>
+          <li
+            class="no-bullet list-item pb-1"
+            routerLink="/window-shutters-oakville-burlington"
+            role="button"
+          >
+            <a class="text-white text-decoration-none">Wood Shutters</a>
+          </li>
+          <li
+            class="no-bullet list-item pb-1"
+            routerLink="/the-maxxmar-collection"
+            role="button"
+          >
+            <a class="text-white text-decoration-none"
+              >The Maxxmar Collection</a
+            >
+          </li>
+        </ul>
+        <h4 class="widget-title">RECENT POSTS</h4>
+        <ul class="ps-0">
+          <li
+            class="no-bullet list-item pb-1"
+            routerLink="/多伦多窗帘最爱"
+            role="button"
+          >
+            <a class="text-white text-decoration-none"
+              >投票选出你最爱的窗帘（参与投票有奖）</a
+            >
+          </li>
+          <li
+            class="no-bullet list-item pb-1"
+            routerLink="/oakville窗帘"
+            role="button"
+          >
+            <a class="text-white text-decoration-none"
+              >新的一年，为了你的家园，我们一起砥砺前行
+            </a>
+          </li>
+          <li
+            class="no-bullet list-item pb-1"
+            routerLink="/5-major-benefits-of-solid-wood-shutters-oakville"
+            role="button"
+          >
+            <a class="text-white text-decoration-none"
+              >5 Major Benefits of Solid Wood Shutters 木百叶窗的优点
+            </a>
+          </li>
+        </ul>
+        <div>
+          <img
+            width="150"
+            height="150"
+            src="assets/images/wec-150x150-1.png"
+            alt="Image of WeChat QR Code to get in touch with Madison Avenue Shutters in Ontario"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

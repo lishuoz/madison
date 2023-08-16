@@ -7,6 +7,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { TopbarComponent } from './shared/topbar/topbar.component';
 import { LogobarComponent } from './shared/logobar/logobar.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { CopyrightComponent } from './shared/copyright/copyright.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { LogobarComponent } from './shared/logobar/logobar.component';
     HomeComponent,
     NavbarComponent,
     TopbarComponent,
-    LogobarComponent
+    LogobarComponent,
+    FooterComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule,

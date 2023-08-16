@@ -30,7 +30,7 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1140px,
+  xxl: 1200px,
 );
 
 $spacer: 1rem;
@@ -140,6 +140,10 @@ html,
 body {
   overflow-x: hidden;
 }
+
+// .no-bullet {
+//   list-style: none;
+// }
 
 // .btn-primary:hover,
 // .btn-primary:focus,

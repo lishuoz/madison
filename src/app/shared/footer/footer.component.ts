@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { AppService } from 'src/app/app.service';
 
 @Component({
-  selector: 'app-topbar',
-  templateUrl: './topbar.component.html',
-  styleUrls: ['./topbar.component.scss'],
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.scss'],
 })
-export class TopbarComponent implements OnInit {
+export class FooterComponent implements OnInit {
   links = this.appService.links;
 
   constructor(private appService: AppService) {}

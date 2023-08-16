@@ -1,0 +1,37 @@
+.widget-title {
+  margin: 0 0 28px;
+  text-transform: uppercase;
+  font-family: "Pontano Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  color: #dddddd;
+}
+
+.list-item {
+  color: #f6f6f6;
+  list-style: none;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.list-item > a {
+  font-weight: 400;
+  list-style: none;
+  font-size: 18px;
+  line-height: 27px;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #282a2b;
+  border-color: #505152;
+  padding: 8px 0;
+  background-image: none;
+  padding-top: 0px;
+  color: #f6f6f6;
+}
+
+p {
+  font-size: 18px;
+  line-height: 20px;
+  color: #f6f6f6;
+}
