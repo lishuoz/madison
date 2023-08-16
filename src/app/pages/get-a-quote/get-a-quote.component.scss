@@ -1,0 +1,71 @@
+.text-container {
+  font-size: 18px;
+  line-height: 20px;
+  color: #747474;
+  box-sizing: border-box;
+  border-color: #eae9e9;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #ffffff;
+}
+
+.text-container h5 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #5c6770;
+  margin-top: 0em;
+  text-align: center;
+}
+
+.promotion-container h5 {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+  -webkit-text-size-adjust: 100%;
+  font: 13px/20px "PTSansRegular", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  font-family: "Pontano Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+h4 {
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  color: #5c6770;
+}
+
+.contact-form em {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+  -webkit-text-size-adjust: 100%;
+  font: 13px/20px "PTSansRegular", Arial, Helvetica, sans-serif;
+  font-family: "Muli", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #747474;
+  box-sizing: border-box;
+}
+
+.google-map p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #747474;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+}

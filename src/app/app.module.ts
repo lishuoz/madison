@@ -9,6 +9,11 @@ import { TopbarComponent } from './shared/topbar/topbar.component';
 import { LogobarComponent } from './shared/logobar/logobar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { CopyrightComponent } from './shared/copyright/copyright.component';
+import { GetAQuoteComponent } from './pages/get-a-quote/get-a-quote.component';
+import { PageTitleComponent } from './shared/page-title/page-title.component';
+import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
+import { ContactFormComponent } from './shared/contact-form/contact-form.component';
+import { GoogleMapComponent } from './shared/google-map/google-map.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { CopyrightComponent } from './shared/copyright/copyright.component';
     TopbarComponent,
     LogobarComponent,
     FooterComponent,
-    CopyrightComponent
+    CopyrightComponent,
+    GetAQuoteComponent,
+    PageTitleComponent,
+    BreadcrumbComponent,
+    ContactFormComponent,
+    GoogleMapComponent
   ],
   imports: [
     BrowserModule,

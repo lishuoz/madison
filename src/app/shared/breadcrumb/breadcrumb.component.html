@@ -1,0 +1,16 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item" *ngFor="let breadcrumb of breadcrumbs">
+      <a
+        [href]="breadcrumb.link"
+        class="text-decoration-none"
+        style="color: #333333"
+        *ngIf="breadcrumb.link"
+        >{{ breadcrumb.name }}</a
+      >
+      <span *ngIf="!breadcrumb.link" aria-current="page">{{
+        breadcrumb.name
+      }}</span>
+    </li>
+  </ol>
+</nav>

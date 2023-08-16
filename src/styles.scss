@@ -10,12 +10,14 @@ $primary: #ef8101;
 $secondary: #747474;
 $black: #0a0a0a;
 $dark: #5c6770;
+$light: #f6f6f6;
 
 $theme-colors: (
   "primary": $primary,
   "dark": $dark,
   "black": $black,
   "secondary": $secondary,
+  "light": $light,
 );
 
 $accordion-button-active-bg: white;
@@ -30,7 +32,7 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1200px,
+  xxl: 1140px,
 );
 
 $spacer: 1rem;
