@@ -1,0 +1,58 @@
+.container p {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+  -webkit-text-size-adjust: 100%;
+  font: 13px/20px "PTSansRegular", Arial, Helvetica, sans-serif;
+  font-family: "Muli", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #747474;
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.fill {
+  height: 400px;
+  /* Set background size and positioning */
+  background-size: cover;
+  background-position: center;
+
+  /* Set background repeat to prevent repetition */
+  background-repeat: no-repeat;
+  background-image: url("/assets/images/Image-of-custom-Maxxmar-Window-blinds-in-Oakville-Ontario.jpeg");
+}
+
+.btn-custom {
+  text-decoration: none;
+  outline: 0;
+  zoom: 1;
+  border: 1px solid white;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-sizing: content-box;
+  transition: all 0.2s;
+  padding: 17px 40px;
+  line-height: 21px;
+  font-size: 18px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 25px !important;
+}
+
+#background-container {
+  /* Set the background image URL */
+  background-image: url("/assets/images/cadillac-window-fashions-home-backgroundtestimonia.jpg");
+
+  /* Set background size and positioning */
+  background-size: cover;
+  background-position: center;
+
+  /* Set background repeat to prevent repetition */
+  background-repeat: no-repeat;
+}

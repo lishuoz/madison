@@ -20,6 +20,8 @@ import { TestimonialsComponent } from './pages/testimonials/testimonials.compone
 import { HomeBannerComponent } from './pages/home/home-banner/home-banner.component';
 import { IconComponent } from './shared/icon/icon.component';
 import { ContactMapContainerComponent } from './shared/contact-map-container/contact-map-container.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { ShadowComponent } from './shared/shadow/shadow.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +43,8 @@ import { ContactMapContainerComponent } from './shared/contact-map-container/con
     HomeBannerComponent,
     IconComponent,
     ContactMapContainerComponent,
+    AboutUsComponent,
+    ShadowComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
