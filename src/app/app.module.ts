@@ -15,6 +15,8 @@ import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
 import { ContactFormComponent } from './shared/contact-form/contact-form.component';
 import { GoogleMapComponent } from './shared/google-map/google-map.component';
 import { GoogleReviewsComponent } from './shared/google-reviews/google-reviews.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { GoogleReviewsComponent } from './shared/google-reviews/google-reviews.c
     ContactFormComponent,
     GoogleMapComponent,
     GoogleReviewsComponent,
+    ContactUsComponent,
+    TestimonialsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

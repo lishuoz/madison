@@ -23,7 +23,7 @@ export class AppService {
     },
     {
       name: 'Contact',
-      url: 'contact',
+      url: 'contact-us',
     },
   ];
 

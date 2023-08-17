@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-get-a-quote',
-  templateUrl: './get-a-quote.component.html',
-  styleUrls: ['./get-a-quote.component.scss'],
+  selector: 'app-contact-us',
+  templateUrl: './contact-us.component.html',
+  styleUrls: ['./contact-us.component.scss'],
 })
-export class GetAQuoteComponent implements OnInit {
+export class ContactUsComponent implements OnInit {
   breadcrumbs = [
     {
       name: 'Home',
       link: '/',
     },
     {
-      name: 'Get a Free Quote',
+      name: 'Contact Us',
       link: null,
     },
   ];

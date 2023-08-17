@@ -1,0 +1,43 @@
+h4 {
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  color: #5c6770;
+}
+
+.contact-form em {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+  -webkit-text-size-adjust: 100%;
+  font: 13px/20px "PTSansRegular", Arial, Helvetica, sans-serif;
+  font-family: "Muli", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #747474;
+  box-sizing: border-box;
+}
+
+.google-map p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #747474;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#background-container {
+  /* Set the background image URL */
+  background-image: url("/assets/images/cadillac-window-fashions-home-backgroundtestimonials.jpg");
+
+  /* Set background size and positioning */
+  background-size: cover;
+  background-position: center;
+
+  /* Set background repeat to prevent repetition */
+  background-repeat: no-repeat;
+}
