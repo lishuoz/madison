@@ -1,5 +1,129 @@
-<h1 style="font-size: 38px; color: rgb(92, 103, 112)">
-  Madison Avenue Window Fashion
-</h1>
+<app-home-banner></app-home-banner>
 
-<p style="font-size: 20px">The Maxxmar Collection</p>
+<!-- Madison Avenue Window Fashion -->
+<div class="container py-6">
+  <h1>Madison Avenue Window Fashion</h1>
+  <h2
+    class="mb-2"
+    style="text-align: center; margin-top: 0.1em; margin-bottom: 0.1em"
+    data-fontsize="32"
+    data-lineheight="34"
+  >
+    Your complete satisfaction is always guaranteed by our exclusive
+  </h2>
+  <div class="row gx-8 gy-4">
+    <div class="col-12 col-lg-6 text-center icon-title">
+      <app-icon iconClass="fa-solid fa-certificate fa-2xl"></app-icon>
+      <h2
+        class="content-box-heading my-2"
+        style="font-size: 24px; line-height: 26px; color: #5c6770"
+        data-inline-fontsize="true"
+        data-inline-lineheight="true"
+        data-fontsize="24"
+        data-lineheight="26"
+      >
+        Lifetime Warranty
+      </h2>
+      <p>
+        Enjoy Madison Avenue Window Fashions in your home without concern about
+        damage or repair for as long as you are there. Our lifetime warranty
+        keeps you worry-free for the entire life of our products. If you should
+        ever have any problem with a product purchased from us just contact us
+        for our fast and friendly service.
+      </p>
+    </div>
+    <div class="col-12 col-lg-6 text-center icon-title">
+      <app-icon iconClass="fa-solid fa-cart-plus fa-2xl"></app-icon>
+      <h2
+        class="content-box-heading my-2"
+        style="font-size: 24px; line-height: 26px; color: #5c6770"
+        data-inline-fontsize="true"
+        data-inline-lineheight="true"
+        data-fontsize="24"
+        data-lineheight="26"
+      >
+        Shop at Home
+      </h2>
+      <p>
+        Are your Windows in need of covering? Experience the Madison Avenue
+        Window Fashions approach. Our Professional design consultants come right
+        to your home with all the latest in window fashions on hand. Shutters
+        don’t suit your taste? No problem. We carry the full line of Maxxmar
+        products, along with additional brands, making sure to satisfy every
+        customer’s unique tastes. Looking for drapes? We’ve got that too! We
+        carry the most up to date designs and fabrics. Our design consultants
+        will help you choose the perfect window treatments for your home or
+        office. Call us today!
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Call us -->
+<div class="bg-primary call-us">
+  <div
+    class="container d-flex flex-column flex-lg-row justify-content-between align-items-center py-6"
+  >
+    <h3>
+      Call us at
+      <a
+        href="tel:+16473330303"
+        class="text-decoration-none"
+        style="color: #212529"
+        >647-333-0303</a
+      >
+      to Book a Free In-Home Consultation.
+    </h3>
+    <button class="btn btn-custom">REQUEST A FREE QUOTE</button>
+  </div>
+</div>
+
+<!-- Background Image -->
+<div class="cotainer-fluid fill"></div>
+
+<!-- Video -->
+<div class="container video-container">
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      <video
+        src="https://www.youtube.com/?embeds_referring_euri=https%3A%2F%2Fwww.madisonavenueshutters.com%2F&source_ve_path=MTc4MDUz"
+        autoplay
+        [muted]="'muted'"
+        class="video"
+        loop
+      ></video>
+    </div>
+    <div class="col-12 col-lg-6 py-6">
+      <p class="text">
+        Make Madison Avenue Window Fashion your first stop when you need custom
+        window treatments. Our expansive selection of blinds, shades, shutters,
+        curtains and drapes will amaze you. We’ve never wavered from our core
+        belief that treating our customers as we would our own family; customer
+        service that goes above and beyond, is the best way to build a
+        successful and sustainable business. We embrace this philosophy in every
+        phase of the buying cycle; from design to installation, we strive for
+        your complete satisfaction.
+      </p>
+      <p class="text">
+        Our commitment to quality and unrivaled dedication to our craft has
+        always separated Madison Avenue from the competition. Timely delivery,
+        and professional installation of our products is just the start, we work
+        hard to earn your satisfaction in our products and services, backed by
+        our worry-free lifetime warranty.
+      </p>
+      <a role="button" class="btn btn-custom" routerLink="/about-us"
+        >LEARN MORE</a
+      >
+    </div>
+  </div>
+</div>
+
+<!-- Testimonials -->
+<div id="background-container" class="py-8">
+  <div class="container bg-white p-6">
+    <app-google-reviews></app-google-reviews>
+  </div>
+</div>
+
+<!-- Contact Us Map -->
+<app-contact-map-container></app-contact-map-container>

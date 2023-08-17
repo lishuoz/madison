@@ -1,40 +1,18 @@
-.text-container {
-  font-size: 18px;
-  line-height: 20px;
-  color: #747474;
-  box-sizing: border-box;
-  border-color: #eae9e9;
-  border-bottom-width: 0px;
-  border-top-width: 0px;
-  border-bottom-style: solid;
-  border-top-style: solid;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  background-color: #ffffff;
-}
-
-.text-container h5 {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  color: #5c6770;
-  margin-top: 0em;
-  text-align: center;
-}
-
-.promotion-container h5 {
+.title {
   --wp--preset--font-size--normal: 16px;
   --wp--preset--font-size--huge: 42px;
   -webkit-text-size-adjust: 100%;
   font: 13px/20px "PTSansRegular", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
-  margin-bottom: 1.67em;
+  margin: 0 0 20px;
+  margin-top: 0em;
+  margin-bottom: 1.1em;
+  color: #5c6770;
   font-family: "Pontano Sans", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 32px;
+  line-height: 34px;
   text-align: center;
-  color: #ffffff;
 }
 
 h4 {
@@ -79,28 +57,4 @@ h4 {
 
   /* Set background repeat to prevent repetition */
   background-repeat: no-repeat;
-}
-
-.btn-custom {
-  zoom: 1;
-  border: 1px solid rgba(0, 0, 0, 0);
-  text-align: center;
-  text-transform: uppercase;
-  cursor: pointer;
-  box-sizing: content-box;
-  transition: all 0.2s;
-  padding: 17px 40px;
-  line-height: 21px;
-  font-size: 18px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  border-width: 1px;
-  color: #ffffff;
-  border-color: #ffffff;
-  background: #ee8006;
-  border-radius: 25px !important;
-}
-
-.btn-custom:hover {
-  background-color: #5c585f;
 }

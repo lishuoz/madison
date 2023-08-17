@@ -17,6 +17,9 @@ import { GoogleMapComponent } from './shared/google-map/google-map.component';
 import { GoogleReviewsComponent } from './shared/google-reviews/google-reviews.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
+import { HomeBannerComponent } from './pages/home/home-banner/home-banner.component';
+import { IconComponent } from './shared/icon/icon.component';
+import { ContactMapContainerComponent } from './shared/contact-map-container/contact-map-container.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +38,9 @@ import { TestimonialsComponent } from './pages/testimonials/testimonials.compone
     GoogleReviewsComponent,
     ContactUsComponent,
     TestimonialsComponent,
+    HomeBannerComponent,
+    IconComponent,
+    ContactMapContainerComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
