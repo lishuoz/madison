@@ -14,6 +14,7 @@ import { PageTitleComponent } from './shared/page-title/page-title.component';
 import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
 import { ContactFormComponent } from './shared/contact-form/contact-form.component';
 import { GoogleMapComponent } from './shared/google-map/google-map.component';
+import { GoogleReviewsComponent } from './shared/google-reviews/google-reviews.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +29,11 @@ import { GoogleMapComponent } from './shared/google-map/google-map.component';
     PageTitleComponent,
     BreadcrumbComponent,
     ContactFormComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    GoogleReviewsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
