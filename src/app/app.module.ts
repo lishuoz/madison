@@ -22,6 +22,8 @@ import { IconComponent } from './shared/icon/icon.component';
 import { ContactMapContainerComponent } from './shared/contact-map-container/contact-map-container.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ShadowComponent } from './shared/shadow/shadow.component';
+import { DrapesComponent } from './pages/drapes/drapes.component';
+import { SliderComponent } from './shared/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,8 @@ import { ShadowComponent } from './shared/shadow/shadow.component';
     ContactMapContainerComponent,
     AboutUsComponent,
     ShadowComponent,
+    DrapesComponent,
+    SliderComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

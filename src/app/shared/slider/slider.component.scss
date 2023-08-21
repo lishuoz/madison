@@ -1,0 +1,13 @@
+.carousel-indicators button {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+
+.carousel-item img {
+  max-height: 450px;
+  height: 450px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
