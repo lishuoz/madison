@@ -7,6 +7,19 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class IconComponent implements OnInit {
   @Input() iconClass: string;
+  @Input() title?: string;
+  @Input() text?: string;
+
+  isActive: boolean = false;
+
+  onMouseEnter() {
+    this.isActive = true;
+  }
+
+  onMouseLeave() {
+    this.isActive = false;
+  }
+
   constructor() {}
 
   ngOnInit(): void {}

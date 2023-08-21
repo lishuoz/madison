@@ -1,3 +1,28 @@
-<div class="circle-wrapper" role="button">
-  <i [class]="iconClass"></i>
+<div
+  class="icon-container"
+  (mouseenter)="onMouseEnter()"
+  (mouseleave)="onMouseLeave()"
+>
+  <div
+    class="circle-wrapper animate__animated"
+    [class.animate__heartBeat]="isActive"
+    role="button"
+  >
+    <i [class]="iconClass"></i>
+  </div>
+
+  <h2
+    class="content-box-heading my-2"
+    style="font-size: 24px; line-height: 26px; color: #5c6770"
+    data-inline-fontsize="true"
+    data-inline-lineheight="true"
+    data-fontsize="24"
+    data-lineheight="26"
+    *ngIf="title"
+  >
+    {{ title }}
+  </h2>
+  <p *ngIf="text">
+    {{ text }}
+  </p>
 </div>
