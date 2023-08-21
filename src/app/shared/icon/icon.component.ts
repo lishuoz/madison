@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./icon.component.scss'],
 })
 export class IconComponent implements OnInit {
-  @Input() iconClass: string;
+  @Input() iconClass?: string = 'fa-solid fa-certificate fa-2xl';
   @Input() title?: string;
   @Input() text?: string;
 
