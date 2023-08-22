@@ -6,6 +6,8 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { DrapesComponent } from './pages/drapes/drapes.component';
+import { WoodShuttersComponent } from './pages/wood-shutters/wood-shutters.component';
+import { MaxxmarComponent } from './pages/maxxmar/maxxmar.component';
 
 const routes: Routes = [
   {
@@ -31,6 +33,14 @@ const routes: Routes = [
   {
     path: 'drapes',
     component: DrapesComponent,
+  },
+  {
+    path: 'window-shutters-oakville-burlington',
+    component: WoodShuttersComponent,
+  },
+  {
+    path: 'the-maxxmar-collection',
+    component: MaxxmarComponent,
   },
 ];
 

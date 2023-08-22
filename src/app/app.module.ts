@@ -24,6 +24,8 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ShadowComponent } from './shared/shadow/shadow.component';
 import { DrapesComponent } from './pages/drapes/drapes.component';
 import { SliderComponent } from './shared/slider/slider.component';
+import { WoodShuttersComponent } from './pages/wood-shutters/wood-shutters.component';
+import { MaxxmarComponent } from './pages/maxxmar/maxxmar.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +51,8 @@ import { SliderComponent } from './shared/slider/slider.component';
     ShadowComponent,
     DrapesComponent,
     SliderComponent,
+    WoodShuttersComponent,
+    MaxxmarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

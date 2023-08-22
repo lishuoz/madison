@@ -9,6 +9,9 @@ export class IconComponent implements OnInit {
   @Input() iconClass?: string = 'fa-solid fa-certificate fa-2xl';
   @Input() title?: string;
   @Input() text?: string;
+  @Input() text1?: string;
+  @Input() text2?: string;
+  @Input() text3?: string;
 
   isActive: boolean = false;
 
