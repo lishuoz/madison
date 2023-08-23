@@ -17,6 +17,11 @@ export class DrapesComponent implements OnInit {
     },
   ];
 
+  drapesSlider = {
+    id: 'drapes',
+    images: ['assets/images/drapery-slide-1.jpg', 'assets/images/drapes-2.jpg'],
+  };
+
   constructor() {}
 
   ngOnInit(): void {}

@@ -8,6 +8,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { DrapesComponent } from './pages/drapes/drapes.component';
 import { WoodShuttersComponent } from './pages/wood-shutters/wood-shutters.component';
 import { MaxxmarComponent } from './pages/maxxmar/maxxmar.component';
+import { ShadesComponent } from './pages/maxxmar/shades/shades.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: 'the-maxxmar-collection',
     component: MaxxmarComponent,
+  },
+  {
+    path: 'the-maxxmar-collection/shades',
+    component: ShadesComponent,
   },
 ];
 
