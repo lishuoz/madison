@@ -10,6 +10,7 @@ import { WoodShuttersComponent } from './pages/wood-shutters/wood-shutters.compo
 import { MaxxmarComponent } from './pages/maxxmar/maxxmar.component';
 import { ShadesComponent } from './pages/maxxmar/shades/shades.component';
 import { BlindsComponent } from './pages/maxxmar/blinds/blinds.component';
+import { ShuttersComponent } from './pages/maxxmar/shutters/shutters.component';
 
 const routes: Routes = [
   {
@@ -51,6 +52,10 @@ const routes: Routes = [
   {
     path: 'the-maxxmar-collection/blinds',
     component: BlindsComponent,
+  },
+  {
+    path: 'the-maxxmar-collection/shutters',
+    component: ShuttersComponent,
   },
 ];
 
