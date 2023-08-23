@@ -1,6 +1,7 @@
 <app-page-title pageTitle="Shades" [breadcrumbs]="breadcrumbs"></app-page-title>
 
 <div class="mt-2"></div>
+
 <!-- Slider -->
 <app-slider [slider]="bannerSlider"></app-slider>
 
@@ -15,42 +16,23 @@
 </div>
 
 <!-- Dual Shades -->
-<div class="bg-white">
-  <div class="container py-4">
-    <h2 class="mb-4">Dual Shades</h2>
-    <div class="row g-10">
-      <div class="col-12 col-lg-6">
-        <app-slider [slider]="dueShadesSlider"></app-slider>
-      </div>
-      <div class="col-12 col-lg-6">
-        <h5>
-          Dual Shades offers the privacy of a shade, the softened view of a
-          sheer and the option of raising and lowering your shade with privacy
-          control at every level.
-        </h5>
-      </div>
-    </div>
-  </div>
-</div>
+<app-maxx-slider-text
+  title="Dual Shades"
+  text="Dual Shades offers the privacy of a shade, the softened view of a
+  sheer and the option of raising and lowering your shade with privacy
+  control at every level."
+  [slider]="dueShadesSlider"
+></app-maxx-slider-text>
 
 <!-- Opera Dual Shades -->
-<div class="bg-light">
-  <div class="container py-4">
-    <h2 class="mb-4">Opera Dual Shades</h2>
-    <div class="row g-10">
-      <div class="col-12 col-lg-6">
-        <app-slider [slider]="operaShadesSlider"></app-slider>
-      </div>
-      <div class="col-12 col-lg-6">
-        <h5>
-          Opera Dual shades include our proprietary opera system, offering the
-          ultimate in light control combining two shades in one sleek operating
-          system.
-        </h5>
-      </div>
-    </div>
-  </div>
-</div>
+<app-maxx-slider-text
+  title="Opera Dual Shades"
+  text="Opera Dual shades include our proprietary opera system, offering the
+  ultimate in light control combining two shades in one sleek operating
+  system."
+  [slider]="operaShadesSlider"
+  [bgWhite]="false"
+></app-maxx-slider-text>
 
 <!-- Opera Shade Control System -->
 <div class="bg-white">
