@@ -32,6 +32,7 @@ import { MaxxSliderTextComponent } from './shared/maxx-slider-text/maxx-slider-t
 import { MaxxRequestQuoteComponent } from './shared/maxx-request-quote/maxx-request-quote.component';
 import { MaxxReviewsComponent } from './shared/maxx-reviews/maxx-reviews.component';
 import { ShuttersComponent } from './pages/maxxmar/shutters/shutters.component';
+import { WindowPanelsComponent } from './pages/maxxmar/window-panels/window-panels.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { ShuttersComponent } from './pages/maxxmar/shutters/shutters.component';
     MaxxRequestQuoteComponent,
     MaxxReviewsComponent,
     ShuttersComponent,
+    WindowPanelsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
