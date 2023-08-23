@@ -36,6 +36,16 @@ export class BlindsComponent implements OnInit {
     images: ['assets/images/stmoritz.jpg'],
   };
 
+  faux = {
+    id: 'faux',
+    images: ['assets/images/IMG_0140.jpg'],
+  };
+
+  pvc = {
+    id: 'faux',
+    images: ['assets/images/maxxvaluepvc.jpg'],
+  };
+
   constructor() {}
 
   ngOnInit(): void {}

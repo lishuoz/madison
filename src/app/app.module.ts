@@ -29,6 +29,8 @@ import { MaxxmarComponent } from './pages/maxxmar/maxxmar.component';
 import { ShadesComponent } from './pages/maxxmar/shades/shades.component';
 import { BlindsComponent } from './pages/maxxmar/blinds/blinds.component';
 import { MaxxSliderTextComponent } from './shared/maxx-slider-text/maxx-slider-text.component';
+import { MaxxRequestQuoteComponent } from './shared/maxx-request-quote/maxx-request-quote.component';
+import { MaxxReviewsComponent } from './shared/maxx-reviews/maxx-reviews.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +61,8 @@ import { MaxxSliderTextComponent } from './shared/maxx-slider-text/maxx-slider-t
     ShadesComponent,
     BlindsComponent,
     MaxxSliderTextComponent,
+    MaxxRequestQuoteComponent,
+    MaxxReviewsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
