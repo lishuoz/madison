@@ -62,6 +62,10 @@ const routes: Routes = [
     path: 'the-maxxmar-collection/window-panels',
     component: WindowPanelsComponent,
   },
+  {
+    path: 'blog',
+    loadChildren: () => import('./blogs/blog.module').then((m) => m.BlogModule),
+  },
 ];
 
 @NgModule({
