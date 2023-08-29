@@ -1,1 +1,30 @@
 <app-page-title pageTitle="Blog" [breadcrumbs]="breadcrumbs"></app-page-title>
+
+<div class="container py-4" id="blog-container">
+  <div class="row g-5">
+    <div class="col-12 col-lg-6" *ngFor="let blog of blogs">
+      <div class="card">
+        <img
+          [src]="blog?.image"
+          class="card-img-top"
+          alt="..."
+          style="height: 400px"
+        />
+        <div class="card-body overflow-hidden pb-2" style="max-height: 500px">
+          <h2 class="card-title">
+            <a [routerLink]="blog?.path" class="text-decoration-none">{{
+              blog?.title
+            }}</a>
+          </h2>
+          <div [innerHTML]="blog?.slug"></div>
+        </div>
+        <div class="card-footer text-muted">
+          {{ blog?.date }} |
+          <ng-container *ngFor="let tag of blog?.tags; let last = last"
+            >{{ tag }}<ng-container *ngIf="!last">, </ng-container>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

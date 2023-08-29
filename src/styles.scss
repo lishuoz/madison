@@ -82,62 +82,6 @@ $spacers: (
   24: $spacer * 12,
 );
 
-// p.subtitle {
-//   font-size: 14px;
-//   color: $warning;
-//   font-weight: 700;
-//   text-transform: uppercase;
-//   letter-spacing: 1.8px;
-// }
-
-// h2.title {
-//   font-size: 45px !important;
-//   font-weight: 600;
-//   letter-spacing: -1.8px;
-//   line-height: 50px;
-// }
-
-// p.text {
-//   color: $secondary;
-//   line-height: 28px;
-//   font-size: 17px;
-// }
-
-// @media (max-width: 992px) {
-//   p.subtitle {
-//     color: $warning;
-//     font-weight: 700;
-//     text-transform: uppercase;
-//     letter-spacing: 1.8px;
-//     font-size: 13px;
-//     line-height: 16px;
-//   }
-
-//   h2.title {
-//     font-size: 27px !important;
-//     font-weight: 600;
-//     line-height: 30px;
-//   }
-
-//   p.text {
-//     color: $secondary;
-//     line-height: 26px;
-//     font-size: 16px;
-//   }
-// }
-
-// .active {
-//   border-bottom: 2px solid $dark;
-// }
-
-// a.link {
-//   text-decoration: none;
-// }
-
-// a.link:hover {
-//   text-decoration: underline;
-// }
-
 html,
 body {
   overflow-x: hidden;
@@ -166,6 +110,21 @@ body {
 
 .circle-wrapper i {
   color: white; /* Icon color */
+}
+
+#blog-container p {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+  -webkit-text-size-adjust: 100%;
+  font: 13px/20px "PTSansRegular", Arial, Helvetica, sans-serif;
+  font-family: "Muli", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #747474;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 // .no-bullet {

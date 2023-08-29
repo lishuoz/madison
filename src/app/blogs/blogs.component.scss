@@ -1,0 +1,18 @@
+#blog-container {
+  h2 {
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+    -webkit-text-size-adjust: 100%;
+    font: 13px/20px "PTSansRegular", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0 0 20px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-bottom: 0;
+    font-family: "Pontano Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #5c6770;
+    font-size: 38px;
+    line-height: 40px;
+  }
+}
