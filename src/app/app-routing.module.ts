@@ -15,6 +15,7 @@ import { WindowPanelsComponent } from './pages/maxxmar/window-panels/window-pane
 import { BlogsComponent } from './blogs/blogs.component';
 import { BlogFavouriteShuttersComponent } from './blogs/blog-favourite-shutters/blog-favourite-shutters.component';
 import { BlogOakvilleShuttersComponent } from './blogs/blog-oakville-shutters/blog-oakville-shutters.component';
+import { BlogMajorBenefitsComponent } from './blogs/blog-major-benefits/blog-major-benefits.component';
 
 const routes: Routes = [
   {
@@ -76,6 +77,10 @@ const routes: Routes = [
   {
     path: 'oakville窗帘',
     component: BlogOakvilleShuttersComponent,
+  },
+  {
+    path: '5-major-benefits-of-solid-wood-shutters-oakville',
+    component: BlogMajorBenefitsComponent,
   },
 ];
 

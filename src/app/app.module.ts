@@ -21,6 +21,7 @@ import { BlogFavouriteShuttersComponent } from './blogs/blog-favourite-shutters/
 import { BlogTitleComponent } from './blogs/blog-title/blog-title.component';
 import { RecentPostsComponent } from './blogs/recent-posts/recent-posts.component';
 import { BlogOakvilleShuttersComponent } from './blogs/blog-oakville-shutters/blog-oakville-shutters.component';
+import { BlogMajorBenefitsComponent } from './blogs/blog-major-benefits/blog-major-benefits.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { BlogOakvilleShuttersComponent } from './blogs/blog-oakville-shutters/bl
     BlogTitleComponent,
     RecentPostsComponent,
     BlogOakvilleShuttersComponent,
+    BlogMajorBenefitsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, SharedModule],
   providers: [],
