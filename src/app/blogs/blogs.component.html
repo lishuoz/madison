@@ -4,12 +4,14 @@
   <div class="row g-5">
     <div class="col-12 col-lg-6" *ngFor="let blog of blogs">
       <div class="card">
-        <img
-          [src]="blog?.image"
-          class="card-img-top"
-          alt="..."
-          style="height: 400px"
-        />
+        <a [routerLink]="blog?.path" class="text-decoration-none">
+          <img
+            [src]="blog?.image"
+            class="card-img-top"
+            alt="..."
+            style="height: 400px"
+          />
+        </a>
         <div class="card-body overflow-hidden pb-2" style="max-height: 500px">
           <h2 class="card-title">
             <a [routerLink]="blog?.path" class="text-decoration-none">{{

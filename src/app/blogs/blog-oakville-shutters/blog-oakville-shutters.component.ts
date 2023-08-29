@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { BlogService } from '../blog.service';
 import { ActivatedRoute } from '@angular/router';
+import { BlogService } from '../blog.service';
 
 @Component({
-  selector: 'app-blog-favourite-shutters',
-  templateUrl: './blog-favourite-shutters.component.html',
-  styleUrls: ['./blog-favourite-shutters.component.scss'],
+  selector: 'app-blog-oakville-shutters',
+  templateUrl: './blog-oakville-shutters.component.html',
+  styleUrls: ['./blog-oakville-shutters.component.scss'],
 })
-export class BlogFavouriteShuttersComponent implements OnInit {
+export class BlogOakvilleShuttersComponent implements OnInit {
   blog: any;
 
   constructor(

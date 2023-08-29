@@ -1,0 +1,31 @@
+h4 {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: 13px "MuseoSlab500Regular", arial, helvetica, sans-serif;
+  margin-bottom: 18px;
+  font-family: "Pontano Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+
+a {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+  -webkit-text-size-adjust: 100%;
+  font: 13px/20px "PTSansRegular", Arial, Helvetica, sans-serif;
+  font-family: "Muli", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: inline;
+  color: #ef8101;
+  border-color: #e0dede;
+}

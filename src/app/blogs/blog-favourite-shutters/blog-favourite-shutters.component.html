@@ -1,12 +1,9 @@
-<app-blog-title
-  blogTitle="投票选出你最爱的窗帘（参与投票有奖）"
-  [tags]="tags"
-></app-blog-title>
+<app-blog-title [blogTitle]="blog?.title" [tags]="blog?.tags"></app-blog-title>
 
 <div class="container">
   <div class="row py-6">
     <div class="col-12 col-lg-9">
-      <div class="">
+      <div>
         <img src="assets/images/blog/1979263237.jpg" alt="" />
       </div>
       <h2>投票选出你最爱的窗帘（参与投票有奖）</h2>
@@ -40,6 +37,6 @@
         <img src="assets/images/blog/250258155.jpg" alt="" width="750" />
       </div>
     </div>
-    <div class="col-12 col-lg-3">test</div>
+    <div class="col-12 col-lg-3"><app-recent-posts></app-recent-posts></div>
   </div>
 </div>

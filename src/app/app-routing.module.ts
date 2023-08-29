@@ -14,6 +14,7 @@ import { ShuttersComponent } from './pages/maxxmar/shutters/shutters.component';
 import { WindowPanelsComponent } from './pages/maxxmar/window-panels/window-panels.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { BlogFavouriteShuttersComponent } from './blogs/blog-favourite-shutters/blog-favourite-shutters.component';
+import { BlogOakvilleShuttersComponent } from './blogs/blog-oakville-shutters/blog-oakville-shutters.component';
 
 const routes: Routes = [
   {
@@ -71,6 +72,10 @@ const routes: Routes = [
   {
     path: '多伦多窗帘最爱',
     component: BlogFavouriteShuttersComponent,
+  },
+  {
+    path: 'oakville窗帘',
+    component: BlogOakvilleShuttersComponent,
   },
 ];
 
