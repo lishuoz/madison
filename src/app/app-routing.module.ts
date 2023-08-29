@@ -17,6 +17,10 @@ import { BlogFavouriteShuttersComponent } from './blogs/blog-favourite-shutters/
 import { BlogOakvilleShuttersComponent } from './blogs/blog-oakville-shutters/blog-oakville-shutters.component';
 import { BlogMajorBenefitsComponent } from './blogs/blog-major-benefits/blog-major-benefits.component';
 import { BlogWhyZebraComponent } from './blogs/blog-why-zebra/blog-why-zebra.component';
+import { BlogRollerShadesComponent } from './blogs/blog-roller-shades/blog-roller-shades.component';
+import { BlogHiveShuttersComponent } from './blogs/blog-hive-shutters/blog-hive-shutters.component';
+import { BlogNaturalWoodComponent } from './blogs/blog-natural-wood/blog-natural-wood.component';
+import { BlogOneWorldComponent } from './blogs/blog-one-world/blog-one-world.component';
 
 const routes: Routes = [
   {
@@ -86,6 +90,22 @@ const routes: Routes = [
   {
     path: '斑马帘-麦迪森窗帘oakville',
     component: BlogWhyZebraComponent,
+  },
+  {
+    path: '卷帘roller-shades-窗帘-oakville',
+    component: BlogRollerShadesComponent,
+  },
+  {
+    path: '蜂巢帘-blinds-oakville',
+    component: BlogHiveShuttersComponent,
+  },
+  {
+    path: '天然木百叶窗-shutters-oakville',
+    component: BlogNaturalWoodComponent,
+  },
+  {
+    path: '传统布艺窗帘-oakville',
+    component: BlogOneWorldComponent,
   },
 ];
 

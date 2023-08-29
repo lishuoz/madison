@@ -23,6 +23,10 @@ import { RecentPostsComponent } from './blogs/recent-posts/recent-posts.componen
 import { BlogOakvilleShuttersComponent } from './blogs/blog-oakville-shutters/blog-oakville-shutters.component';
 import { BlogMajorBenefitsComponent } from './blogs/blog-major-benefits/blog-major-benefits.component';
 import { BlogWhyZebraComponent } from './blogs/blog-why-zebra/blog-why-zebra.component';
+import { BlogRollerShadesComponent } from './blogs/blog-roller-shades/blog-roller-shades.component';
+import { BlogHiveShuttersComponent } from './blogs/blog-hive-shutters/blog-hive-shutters.component';
+import { BlogNaturalWoodComponent } from './blogs/blog-natural-wood/blog-natural-wood.component';
+import { BlogOneWorldComponent } from './blogs/blog-one-world/blog-one-world.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +50,10 @@ import { BlogWhyZebraComponent } from './blogs/blog-why-zebra/blog-why-zebra.com
     BlogOakvilleShuttersComponent,
     BlogMajorBenefitsComponent,
     BlogWhyZebraComponent,
+    BlogRollerShadesComponent,
+    BlogHiveShuttersComponent,
+    BlogNaturalWoodComponent,
+    BlogOneWorldComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, SharedModule],
   providers: [],
