@@ -16,6 +16,9 @@ import { BlindsComponent } from './pages/maxxmar/blinds/blinds.component';
 import { ShuttersComponent } from './pages/maxxmar/shutters/shutters.component';
 import { WindowPanelsComponent } from './pages/maxxmar/window-panels/window-panels.component';
 import { SharedModule } from './shared/shared.module';
+import { BlogsComponent } from './blogs/blogs.component';
+import { BlogFavouriteShuttersComponent } from './blogs/blog-favourite-shutters/blog-favourite-shutters.component';
+import { BlogTitleComponent } from './blogs/blog-title/blog-title.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +35,9 @@ import { SharedModule } from './shared/shared.module';
     BlindsComponent,
     ShuttersComponent,
     WindowPanelsComponent,
+    BlogsComponent,
+    BlogFavouriteShuttersComponent,
+    BlogTitleComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, SharedModule],
   providers: [],

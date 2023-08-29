@@ -18,7 +18,7 @@ export class BlogService {
       ],
       image: 'assets/images/blog/1979263237.jpg',
       date: 'February 1st, 2020',
-      path: '多伦多窗帘最爱',
+      path: '/多伦多窗帘最爱',
       slug: '<p>​2020&nbsp;爱你爱你<br>投票选出你最爱的窗帘</p> <p>票数最高的三位老客户，现金奖励如下：</p> <p> 	一等奖：$150&nbsp;现金<br>    二等奖：$100 现金<br>    三等奖：$50&nbsp; &nbsp;现金</p> <p>如果您选中的最爱窗帘获奖，关注公众号的投票者奖励如下：</p> <p> 	一等奖的投票者：&nbsp;$150 coupon<br>    二等奖的投票者：&nbsp;$100 coupon<br>    三等奖的投票者：&nbsp;$50&nbsp;&nbsp; coupon</p> <p>投票链接：<br> 点击此处文字进入窗帘投票通道<br> 投票截止日期：<br> 2020年 2月8日 23点55分<br> 兑奖请联系：<br> 手机/微信 647-333-0303</p></div>',
       contents: '',
     },

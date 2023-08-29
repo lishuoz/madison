@@ -1,0 +1,26 @@
+<div
+  class="bg-light d-flex flex-column justify-content-center align-items-center"
+  style="height: 150px"
+>
+  <h1 class="entry-title">{{ blogTitle }}</h1>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="/" class="text-decoration-none" style="color: #333333">Home</a>
+      </li>
+      &nbsp;/&nbsp;
+      <li class="tag" *ngFor="let tag of tags; let last = last">
+        <a
+          [href]="'/categroy/' + tag"
+          class="text-decoration-none"
+          style="color: #333333"
+          >{{ tag }}<ng-container *ngIf="!last">,&nbsp;</ng-container></a
+        >
+      </li>
+      &nbsp;/&nbsp;
+      <li class="breadcrumb-item">
+        <span aria-current="page">{{ blogTitle }}</span>
+      </li>
+    </ol>
+  </nav>
+</div>

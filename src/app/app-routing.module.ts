@@ -12,6 +12,8 @@ import { ShadesComponent } from './pages/maxxmar/shades/shades.component';
 import { BlindsComponent } from './pages/maxxmar/blinds/blinds.component';
 import { ShuttersComponent } from './pages/maxxmar/shutters/shutters.component';
 import { WindowPanelsComponent } from './pages/maxxmar/window-panels/window-panels.component';
+import { BlogsComponent } from './blogs/blogs.component';
+import { BlogFavouriteShuttersComponent } from './blogs/blog-favourite-shutters/blog-favourite-shutters.component';
 
 const routes: Routes = [
   {
@@ -64,7 +66,11 @@ const routes: Routes = [
   },
   {
     path: 'blog',
-    loadChildren: () => import('./blogs/blog.module').then((m) => m.BlogModule),
+    component: BlogsComponent,
+  },
+  {
+    path: '多伦多窗帘最爱',
+    component: BlogFavouriteShuttersComponent,
   },
 ];
 
