@@ -21,6 +21,8 @@ import { BlogRollerShadesComponent } from './blogs/blog-roller-shades/blog-rolle
 import { BlogHiveShuttersComponent } from './blogs/blog-hive-shutters/blog-hive-shutters.component';
 import { BlogNaturalWoodComponent } from './blogs/blog-natural-wood/blog-natural-wood.component';
 import { BlogOneWorldComponent } from './blogs/blog-one-world/blog-one-world.component';
+import { BlogOriginBlindsShuttersComponent } from './blogs/blog-origin-blinds-shutters/blog-origin-blinds-shutters.component';
+import { BlogCaliforniaShuttersComponent } from './blogs/blog-california-shutters/blog-california-shutters.component';
 
 const routes: Routes = [
   {
@@ -106,6 +108,14 @@ const routes: Routes = [
   {
     path: '传统布艺窗帘-oakville',
     component: BlogOneWorldComponent,
+  },
+  {
+    path: '窗帘的起源说blinds-oakville',
+    component: BlogOriginBlindsShuttersComponent,
+  },
+  {
+    path: '天然木百叶窗california-shutters-oakville',
+    component: BlogCaliforniaShuttersComponent,
   },
 ];
 

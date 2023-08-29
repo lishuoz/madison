@@ -27,6 +27,8 @@ import { BlogRollerShadesComponent } from './blogs/blog-roller-shades/blog-rolle
 import { BlogHiveShuttersComponent } from './blogs/blog-hive-shutters/blog-hive-shutters.component';
 import { BlogNaturalWoodComponent } from './blogs/blog-natural-wood/blog-natural-wood.component';
 import { BlogOneWorldComponent } from './blogs/blog-one-world/blog-one-world.component';
+import { BlogOriginBlindsShuttersComponent } from './blogs/blog-origin-blinds-shutters/blog-origin-blinds-shutters.component';
+import { BlogCaliforniaShuttersComponent } from './blogs/blog-california-shutters/blog-california-shutters.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +56,8 @@ import { BlogOneWorldComponent } from './blogs/blog-one-world/blog-one-world.com
     BlogHiveShuttersComponent,
     BlogNaturalWoodComponent,
     BlogOneWorldComponent,
+    BlogOriginBlindsShuttersComponent,
+    BlogCaliforniaShuttersComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, SharedModule],
   providers: [],
