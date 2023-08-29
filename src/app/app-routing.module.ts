@@ -16,6 +16,7 @@ import { BlogsComponent } from './blogs/blogs.component';
 import { BlogFavouriteShuttersComponent } from './blogs/blog-favourite-shutters/blog-favourite-shutters.component';
 import { BlogOakvilleShuttersComponent } from './blogs/blog-oakville-shutters/blog-oakville-shutters.component';
 import { BlogMajorBenefitsComponent } from './blogs/blog-major-benefits/blog-major-benefits.component';
+import { BlogWhyZebraComponent } from './blogs/blog-why-zebra/blog-why-zebra.component';
 
 const routes: Routes = [
   {
@@ -81,6 +82,10 @@ const routes: Routes = [
   {
     path: '5-major-benefits-of-solid-wood-shutters-oakville',
     component: BlogMajorBenefitsComponent,
+  },
+  {
+    path: '斑马帘-麦迪森窗帘oakville',
+    component: BlogWhyZebraComponent,
   },
 ];
 
