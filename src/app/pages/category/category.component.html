@@ -1,7 +1,7 @@
-<app-page-title pageTitle="Blog" [breadcrumbs]="breadcrumbs"></app-page-title>
+<app-page-title [pageTitle]="tag" [breadcrumbs]="breadcrumbs"></app-page-title>
 
-<div class="container py-4" id="blog-container">
-  <div class="row g-5">
+<div class="container py-4" id="category-container">
+  <div class="row g-5" *ngIf="blogs.length > 1">
     <div class="col-12 col-lg-6" *ngFor="let blog of blogs">
       <div class="card">
         <a [routerLink]="blog?.path" class="text-decoration-none">

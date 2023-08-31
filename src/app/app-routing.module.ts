@@ -23,6 +23,7 @@ import { BlogNaturalWoodComponent } from './blogs/blog-natural-wood/blog-natural
 import { BlogOneWorldComponent } from './blogs/blog-one-world/blog-one-world.component';
 import { BlogOriginBlindsShuttersComponent } from './blogs/blog-origin-blinds-shutters/blog-origin-blinds-shutters.component';
 import { BlogCaliforniaShuttersComponent } from './blogs/blog-california-shutters/blog-california-shutters.component';
+import { CategoryComponent } from './pages/category/category.component';
 
 const routes: Routes = [
   {
@@ -116,6 +117,10 @@ const routes: Routes = [
   {
     path: '天然木百叶窗california-shutters-oakville',
     component: BlogCaliforniaShuttersComponent,
+  },
+  {
+    path: 'category/:tag',
+    component: CategoryComponent,
   },
 ];
 
