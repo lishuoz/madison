@@ -1,0 +1,39 @@
+#to-top-container {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+  -webkit-text-size-adjust: 100%;
+  font: 13px/20px "PTSansRegular", Arial, Helvetica, sans-serif;
+  font-family: "Muli", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #747474;
+  box-sizing: border-box;
+}
+
+#toTop {
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+  -webkit-text-size-adjust: 100%;
+  font: 13px/20px "PTSansRegular", Arial, Helvetica, sans-serif;
+  font-family: "Muli", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: #333333;
+  border-radius: 4px 4px 0 0;
+  bottom: 0;
+  color: #ffffff;
+  height: 35px;
+  position: fixed;
+  right: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 48px;
+  opacity: 0.9;
+  z-index: 10000;
+  transition: all 0.2s ease-in-out 0s;
+  display: block;
+}

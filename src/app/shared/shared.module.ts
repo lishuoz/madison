@@ -19,6 +19,7 @@ import { MaxxReviewsComponent } from './maxx-reviews/maxx-reviews.component';
 import { MaxxSliderTextComponent } from './maxx-slider-text/maxx-slider-text.component';
 import { SliderComponent } from './slider/slider.component';
 import { RouterModule } from '@angular/router';
+import { BackToTopComponent } from './back-to-top/back-to-top.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { RouterModule } from '@angular/router';
     MaxxSliderTextComponent,
     MaxxRequestQuoteComponent,
     MaxxReviewsComponent,
+    BackToTopComponent,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -61,6 +63,7 @@ import { RouterModule } from '@angular/router';
     MaxxSliderTextComponent,
     MaxxRequestQuoteComponent,
     MaxxReviewsComponent,
+    BackToTopComponent,
   ],
 })
 export class SharedModule {}
