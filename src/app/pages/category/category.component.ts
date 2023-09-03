@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { BlogService } from 'src/app/blogs/blog.service';
 
@@ -22,7 +23,8 @@ export class CategoryComponent implements OnInit {
   constructor(
     private blogService: BlogService,
     private route: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private titleService: Title
   ) {}
 
   ngOnInit() {
@@ -37,5 +39,6 @@ export class CategoryComponent implements OnInit {
       );
       if (!this.blogs.length) this.router.navigate(['/']);
     });
+    this.titleService.setTitle('Madison');
   }
 }

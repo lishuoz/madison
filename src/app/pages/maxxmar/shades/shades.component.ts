@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-shades',
@@ -100,7 +101,93 @@ export class ShadesComponent implements OnInit {
     interval: 3000,
   };
 
-  constructor() {}
+  constructor(private titleService: Title, private metaService: Meta) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.titleService.setTitle(
+      'Collection of Shades | 窗帘 Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades'
+    );
+
+    this.metaService.addTags([
+      { httpEquiv: 'Content-Type', content: 'text/html; charset=utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        rel: 'shortcut icon',
+        href: 'https://www.madisonavenueshutters.com/wp-content/themes/Avada%20Theme/Avada/images/fav.png',
+        type: 'image/x-icon',
+      },
+      {
+        name: 'description',
+        content:
+          'Madison Avenue Window Fashion offers a variety of shades: dual shades, roller shades, sunset shades, roman shades, pleated shades, cellular shades, vertical shades,',
+      },
+      { name: 'robots', content: 'max-image-preview:large' },
+      {
+        name: 'keywords',
+        content:
+          'dual shades,roller shades,sunset shades,roman shades,pleated shades,cellular shades,vertical shades,',
+      },
+      {
+        rel: 'canonical',
+        href: 'https://www.madisonavenueshutters.com/the-maxxmar-collection/shades/',
+      },
+      { name: 'generator', content: 'All in One SEO (AIOSEO) 4.2.6.1' },
+      { property: 'og:locale', content: 'en_US' },
+      {
+        property: 'og:site_name',
+        content:
+          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
+      },
+      { property: 'og:type', content: 'activity' },
+      {
+        property: 'og:title',
+        content:
+          'Collection of Shades | 窗帘 Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
+      },
+      {
+        property: 'og:description',
+        content:
+          'Madison Avenue Window Fashion offers a variety of shades: dual shades, roller shades, sunset shades, roman shades, pleated shades, cellular shades, vertical shades,',
+      },
+      {
+        property: 'og:url',
+        content:
+          'https://www.madisonavenueshutters.com/the-maxxmar-collection/shades/',
+      },
+      { name: 'twitter:card', content: 'summary' },
+      {
+        name: 'twitter:title',
+        content:
+          'Collection of Shades | 窗帘 Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Madison Avenue Window Fashion offers a variety of shades: dual shades, roller shades, sunset shades, roman shades, pleated shades, cellular shades, vertical shades,',
+      },
+      { name: 'google', content: 'nositelinkssearchbox' },
+      { property: 'og:title', content: 'Shades' },
+      { property: 'og:type', content: 'article' },
+      {
+        property: 'og:url',
+        content:
+          'https://www.madisonavenueshutters.com/the-maxxmar-collection/shades/',
+      },
+      {
+        property: 'og:site_name',
+        content:
+          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
+      },
+      {
+        property: 'og:description',
+        content:
+          'At Madison Avenue Window Fashions, we offer an extensive selection of shades in a wide variety of colors. View some of Madison Avenue Window Fashion Showroom Shades.',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://www.madisonavenueshutters.com/wp-content/uploads/2018/12/Madison-Window-Logo-1-1.png',
+      },
+    ]);
+  }
 }
