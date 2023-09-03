@@ -43,7 +43,6 @@ export class DrapesComponent implements OnInit {
         content:
           'There’s a perfect choice for every room with custom-made drapes, a cost-effective window covering solutions. 定制布艺窗帘对每个房间而言都是完美的选择，这是当今市场最具成本效益的窗帘解决方案。',
       },
-      { name: 'robots', content: 'max-image-preview:large' },
       {
         name: 'keywords',
         content:
@@ -53,13 +52,7 @@ export class DrapesComponent implements OnInit {
         rel: 'canonical',
         href: 'https://www.madisonavenueshutters.com/drapes/',
       },
-      { name: 'generator', content: 'All in One SEO (AIOSEO) 4.2.6.1' },
-      { property: 'og:locale', content: 'en_US' },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
-      },
+
       { property: 'og:type', content: 'activity' },
       {
         property: 'og:title',
@@ -75,7 +68,7 @@ export class DrapesComponent implements OnInit {
         property: 'og:url',
         content: 'https://www.madisonavenueshutters.com/drapes/',
       },
-      { name: 'twitter:card', content: 'summary' },
+
       {
         name: 'twitter:title',
         content:
@@ -86,18 +79,14 @@ export class DrapesComponent implements OnInit {
         content:
           'There’s a perfect choice for every room with custom-made drapes, a cost-effective window covering solutions. 定制布艺窗帘对每个房间而言都是完美的选择，这是当今市场最具成本效益的窗帘解决方案。',
       },
-      { name: 'google', content: 'nositelinkssearchbox' },
+
       { property: 'og:title', content: 'Drapes' },
       { property: 'og:type', content: 'article' },
       {
         property: 'og:url',
         content: 'https://www.madisonavenueshutters.com/drapes/',
       },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
-      },
+
       {
         property: 'og:description',
         content:

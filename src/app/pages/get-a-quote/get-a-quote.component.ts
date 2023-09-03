@@ -38,7 +38,6 @@ export class GetAQuoteComponent implements OnInit {
         content:
           'Custom Window Blinds, Shades, Shutters, made to your specifications. We are a Hunter Douglas Dealer Serving Toronto The GTA for over 30 years. We sell a variety of blinds and shades, such as roman blinds, pirouette blinds, horizontal and vertical blinds, duette blinds and woven wood shades.',
       },
-      { name: 'robots', content: 'max-image-preview:large' },
       {
         name: 'keywords',
         content:
@@ -48,13 +47,7 @@ export class GetAQuoteComponent implements OnInit {
         rel: 'canonical',
         href: 'https://www.madisonavenueshutters.com/get-a-quote/',
       },
-      { name: 'generator', content: 'All in One SEO (AIOSEO) 4.2.6.1' },
-      { property: 'og:locale', content: 'en_US' },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
-      },
+
       { property: 'og:type', content: 'activity' },
       {
         property: 'og:title',
@@ -70,7 +63,7 @@ export class GetAQuoteComponent implements OnInit {
         property: 'og:url',
         content: 'https://www.madisonavenueshutters.com/get-a-quote/',
       },
-      { name: 'twitter:card', content: 'summary' },
+
       {
         name: 'twitter:title',
         content:
@@ -81,18 +74,14 @@ export class GetAQuoteComponent implements OnInit {
         content:
           'Custom Window Blinds, Shades, Shutters, made to your specifications. We are a Hunter Douglas Dealer Serving Toronto The GTA for over 30 years. We sell a variety of blinds and shades, such as roman blinds, pirouette blinds, horizontal and vertical blinds, duette blinds and woven wood shades.',
       },
-      { name: 'google', content: 'nositelinkssearchbox' },
+
       { property: 'og:title', content: 'Get a Free Quote' },
       { property: 'og:type', content: 'article' },
       {
         property: 'og:url',
         content: 'https://www.madisonavenueshutters.com/get-a-quote/',
       },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
-      },
+
       {
         property: 'og:description',
         content:

@@ -35,7 +35,6 @@ export class WoodShuttersComponent implements OnInit {
         content:
           'Madison Avenue Window Fashion has been supplying & installing the best Wood shutters and California shutters in a variety of stains in Oakville and Burlington.',
       },
-      { name: 'robots', content: 'max-image-preview:large' },
       {
         name: 'keywords',
         content:
@@ -45,13 +44,7 @@ export class WoodShuttersComponent implements OnInit {
         rel: 'canonical',
         href: 'https://www.madisonavenueshutters.com/window-shutters-oakville-burlington/',
       },
-      { name: 'generator', content: 'All in One SEO (AIOSEO) 4.2.6.1' },
-      { property: 'og:locale', content: 'en_US' },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
-      },
+
       { property: 'og:type', content: 'activity' },
       {
         property: 'og:title',
@@ -68,7 +61,7 @@ export class WoodShuttersComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/window-shutters-oakville-burlington/',
       },
-      { name: 'twitter:card', content: 'summary' },
+
       {
         name: 'twitter:title',
         content:
@@ -79,7 +72,7 @@ export class WoodShuttersComponent implements OnInit {
         content:
           'Madison Avenue Window Fashion has been supplying & installing the best Wood shutters and California shutters in a variety of stains in Oakville and Burlington.',
       },
-      { name: 'google', content: 'nositelinkssearchbox' },
+
       { property: 'og:title', content: 'Wood Shutters' },
       { property: 'og:type', content: 'article' },
       {
@@ -87,11 +80,7 @@ export class WoodShuttersComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/window-shutters-oakville-burlington/',
       },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
-      },
+
       {
         property: 'og:description',
         content:

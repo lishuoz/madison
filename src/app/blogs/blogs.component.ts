@@ -36,7 +36,6 @@ export class BlogsComponent implements OnInit {
         content:
           'How do we choose from shutters, drapes, blinds & shades in Toronto, Oakville, Mississauga, Burlington? 窗帘是家居装修中不可缺少的重要装饰品，百叶窗,斑马帘,传统布艺,卷帘......那么多种类，我们如何选购窗帘呢？',
       },
-      { name: 'robots', content: 'max-image-preview:large' },
       {
         name: 'keywords',
         content:
@@ -46,13 +45,7 @@ export class BlogsComponent implements OnInit {
         name: 'canonical',
         content: 'https://www.madisonavenueshutters.com/blog/',
       },
-      { name: 'generator', content: 'All in One SEO (AIOSEO) 4.2.6.1' },
-      { property: 'og:locale', content: 'en_US' },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
-      },
+
       { property: 'og:type', content: 'activity' },
       {
         property: 'og:title',
@@ -68,7 +61,7 @@ export class BlogsComponent implements OnInit {
         property: 'og:url',
         content: 'https://www.madisonavenueshutters.com/blog/',
       },
-      { name: 'twitter:card', content: 'summary' },
+
       {
         name: 'twitter:title',
         content:
@@ -79,7 +72,6 @@ export class BlogsComponent implements OnInit {
         content:
           'How do we choose from shutters, drapes, blinds & shades in Toronto, Oakville, Mississauga, Burlington? 窗帘是家居装修中不可缺少的重要装饰品，百叶窗,斑马帘,传统布艺,卷帘......那么多种类，我们如何选购窗帘呢？',
       },
-      { name: 'google', content: 'nositelinkssearchbox' },
     ]);
   }
 }

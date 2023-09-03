@@ -36,7 +36,6 @@ export class ContactUsComponent implements OnInit {
         content:
           'You can reach us by phone, email, or by filling out our form below. We’ll give you a free customized quote or in-home consultation. 您可以打电话，写电子邮件或填写网站下面的表格与我们联系。我们将为您提供免费的测量和报价。',
       },
-      { name: 'robots', content: 'max-image-preview:large' },
       {
         name: 'keywords',
         content:
@@ -46,13 +45,7 @@ export class ContactUsComponent implements OnInit {
         rel: 'canonical',
         href: 'https://www.madisonavenueshutters.com/contact-us/',
       },
-      { name: 'generator', content: 'All in One SEO (AIOSEO) 4.2.6.1' },
-      { property: 'og:locale', content: 'en_US' },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘, 木百叶窗, 斑马帘, 布艺, 卷帘',
-      },
+
       { property: 'og:type', content: 'activity' },
       {
         property: 'og:title',
@@ -68,7 +61,7 @@ export class ContactUsComponent implements OnInit {
         property: 'og:url',
         content: 'https://www.madisonavenueshutters.com/contact-us/',
       },
-      { name: 'twitter:card', content: 'summary' },
+
       {
         name: 'twitter:title',
         content:
@@ -79,7 +72,6 @@ export class ContactUsComponent implements OnInit {
         content:
           'You can reach us by phone, email, or by filling out our form below. We’ll give you a free customized quote or in-home consultation. 您可以打电话，写电子邮件或填写网站下面的表格与我们联系。我们将为您提供免费的测量和报价。',
       },
-      { name: 'google', content: 'nositelinkssearchbox' },
     ]);
   }
 }

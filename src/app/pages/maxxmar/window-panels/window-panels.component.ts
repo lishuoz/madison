@@ -52,7 +52,6 @@ export class WindowPanelsComponent implements OnInit {
         content:
           'Panel Tracks provide a refined accent to your décor. 窗帘滚筒轨道以及底部为您的窗饰提供雅致的重量。',
       },
-      { name: 'robots', content: 'max-image-preview:large' },
       {
         name: 'keywords',
         content:
@@ -62,13 +61,7 @@ export class WindowPanelsComponent implements OnInit {
         rel: 'canonical',
         href: 'https://www.madisonavenueshutters.com/the-maxxmar-collection/window-panels/',
       },
-      { name: 'generator', content: 'All in One SEO (AIOSEO) 4.2.6.1' },
-      { property: 'og:locale', content: 'en_US' },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
-      },
+
       { property: 'og:type', content: 'activity' },
       {
         property: 'og:title',
@@ -85,7 +78,7 @@ export class WindowPanelsComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/the-maxxmar-collection/window-panels/',
       },
-      { name: 'twitter:card', content: 'summary' },
+
       {
         name: 'twitter:title',
         content:
@@ -96,7 +89,7 @@ export class WindowPanelsComponent implements OnInit {
         content:
           'Panel Tracks provide a refined accent to your décor. 窗帘滚筒轨道以及底部为您的窗饰提供雅致的重量。',
       },
-      { name: 'google', content: 'nositelinkssearchbox' },
+
       { property: 'og:title', content: 'Window Panels' },
       { property: 'og:type', content: 'article' },
       {
@@ -104,11 +97,7 @@ export class WindowPanelsComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/the-maxxmar-collection/window-panels/',
       },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
-      },
+
       {
         property: 'og:description',
         content:

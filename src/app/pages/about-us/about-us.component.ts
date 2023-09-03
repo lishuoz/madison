@@ -66,7 +66,7 @@ export class AboutUsComponent implements OnInit {
     this.metaService.addTag({
       property: 'og:site_name',
       content:
-        'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes &amp; Shades',
+        'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
     });
     this.metaService.addTag({
       property: 'og:description',

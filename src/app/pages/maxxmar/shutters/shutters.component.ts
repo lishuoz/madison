@@ -67,7 +67,6 @@ export class ShuttersComponent implements OnInit {
         content:
           'We offers high quality wood & California shutters for over 30 years. We service Oakville, Burlington, Toronto, Mississauga, Brampton, Markham, Scarborough, GTA.',
       },
-      { name: 'robots', content: 'max-image-preview:large' },
       {
         name: 'keywords',
         content:
@@ -77,13 +76,7 @@ export class ShuttersComponent implements OnInit {
         rel: 'canonical',
         href: 'https://www.madisonavenueshutters.com/the-maxxmar-collection/shutters/',
       },
-      { name: 'generator', content: 'All in One SEO (AIOSEO) 4.2.6.1' },
-      { property: 'og:locale', content: 'en_US' },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
-      },
+
       { property: 'og:type', content: 'activity' },
       {
         property: 'og:title',
@@ -100,7 +93,7 @@ export class ShuttersComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/the-maxxmar-collection/shutters/',
       },
-      { name: 'twitter:card', content: 'summary' },
+
       {
         name: 'twitter:title',
         content:
@@ -111,7 +104,7 @@ export class ShuttersComponent implements OnInit {
         content:
           'We offers high quality wood & California shutters for over 30 years. We service Oakville, Burlington, Toronto, Mississauga, Brampton, Markham, Scarborough, GTA.',
       },
-      { name: 'google', content: 'nositelinkssearchbox' },
+
       { property: 'og:title', content: 'Shutters' },
       { property: 'og:type', content: 'article' },
       {
@@ -119,11 +112,7 @@ export class ShuttersComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/the-maxxmar-collection/shutters/',
       },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
-      },
+
       {
         property: 'og:description',
         content:

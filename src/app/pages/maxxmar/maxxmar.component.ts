@@ -39,7 +39,6 @@ export class MaxxmarComponent implements OnInit {
         content:
           'We have designed our showroom around the latest innovations in window covering design. the best window covering in oakville and burlington',
       },
-      { name: 'robots', content: 'max-image-preview:large' },
       {
         name: 'keywords',
         content:
@@ -49,13 +48,7 @@ export class MaxxmarComponent implements OnInit {
         rel: 'canonical',
         href: 'https://www.madisonavenueshutters.com/the-maxxmar-collection/',
       },
-      { name: 'generator', content: 'All in One SEO (AIOSEO) 4.2.6.1' },
-      { property: 'og:locale', content: 'en_US' },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
-      },
+
       { property: 'og:type', content: 'activity' },
       {
         property: 'og:title',
@@ -72,7 +65,7 @@ export class MaxxmarComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/the-maxxmar-collection/',
       },
-      { name: 'twitter:card', content: 'summary' },
+
       {
         name: 'twitter:title',
         content:
@@ -83,7 +76,7 @@ export class MaxxmarComponent implements OnInit {
         content:
           'We have designed our showroom around the latest innovations in window covering design. the best window covering in oakville and burlington',
       },
-      { name: 'google', content: 'nositelinkssearchbox' },
+
       { property: 'og:title', content: 'The Maxxmar Collection' },
       { property: 'og:type', content: 'article' },
       {
@@ -91,11 +84,7 @@ export class MaxxmarComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/the-maxxmar-collection/',
       },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
-      },
+
       {
         property: 'og:description',
         content:

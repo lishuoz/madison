@@ -43,7 +43,7 @@ export class BlogService {
       image: 'assets/images/blog/shutter-1.jpg',
       date: 'December 11th, 2019',
       path: '/5-major-benefits-of-solid-wood-shutters-oakville',
-      slug: '<div class="fusion-post-content-container"><p>1. Solid wood shutters, natural materials, ecological safety, environmental friendly</p><p>California Shutters (Wood Shutters) are made from natural solid wood, it provides environmental protection and reduces pollution. Wood shutters is an important decoration to your lovely home.</p><p>2. Easy to clean &amp; Durable</p><p>The wood shutters only need to be wiped with a piece of cotton cloth, without […]</p></div>',
+      slug: '<div class="fusion-post-content-container"><p>1. Solid wood shutters, natural materials, ecological safety, environmental friendly</p><p>California Shutters (Wood Shutters) are made from natural solid wood, it provides environmental protection and reduces pollution. Wood shutters is an important decoration to your lovely home.</p><p>2. Easy to clean & Durable</p><p>The wood shutters only need to be wiped with a piece of cotton cloth, without […]</p></div>',
       contents: '',
     },
     {

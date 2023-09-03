@@ -46,7 +46,7 @@ export class TestimonialsComponent implements OnInit {
     this.metaService.addTag({
       property: 'og:site_name',
       content:
-        'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes &amp; Shades',
+        'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
     });
     this.metaService.addTag({
       property: 'og:description',
@@ -86,7 +86,7 @@ export class TestimonialsComponent implements OnInit {
     this.metaService.addTag({
       property: 'og:site_name',
       content:
-        'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes &amp; Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
+        'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
     });
     this.metaService.addTag({ property: 'og:type', content: 'activity' });
     this.metaService.addTag({
@@ -102,7 +102,7 @@ export class TestimonialsComponent implements OnInit {
     this.metaService.addTag({
       name: 'twitter:title',
       content:
-        'Customer Testimonials on custom shutters, blinds, curtains and shades Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes &amp; Shades',
+        'Customer Testimonials on custom shutters, blinds, curtains and shades Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
     });
     this.metaService.addTag({
       name: 'twitter:description',

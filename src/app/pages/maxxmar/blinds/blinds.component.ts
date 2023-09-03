@@ -66,7 +66,6 @@ export class BlindsComponent implements OnInit {
         content:
           'We offer a variety of blinds to choose from for any room in your home. View our Showroom to choose your Blinds today.',
       },
-      { name: 'robots', content: 'max-image-preview:large' },
       {
         name: 'keywords',
         content:
@@ -76,13 +75,7 @@ export class BlindsComponent implements OnInit {
         rel: 'canonical',
         href: 'https://www.madisonavenueshutters.com/the-maxxmar-collection/blinds/',
       },
-      { name: 'generator', content: 'All in One SEO (AIOSEO) 4.2.6.1' },
-      { property: 'og:locale', content: 'en_US' },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
-      },
+
       { property: 'og:type', content: 'activity' },
       {
         property: 'og:title',
@@ -99,7 +92,7 @@ export class BlindsComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/the-maxxmar-collection/blinds/',
       },
-      { name: 'twitter:card', content: 'summary' },
+
       {
         name: 'twitter:title',
         content:
@@ -110,7 +103,7 @@ export class BlindsComponent implements OnInit {
         content:
           'We offer a variety of blinds to choose from for any room in your home. View our Showroom to choose your Blinds today.',
       },
-      { name: 'google', content: 'nositelinkssearchbox' },
+
       { property: 'og:title', content: 'Blinds' },
       { property: 'og:type', content: 'article' },
       {
@@ -118,11 +111,7 @@ export class BlindsComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/the-maxxmar-collection/blinds/',
       },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
-      },
+
       {
         property: 'og:description',
         content:

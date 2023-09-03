@@ -121,7 +121,6 @@ export class ShadesComponent implements OnInit {
         content:
           'Madison Avenue Window Fashion offers a variety of shades: dual shades, roller shades, sunset shades, roman shades, pleated shades, cellular shades, vertical shades,',
       },
-      { name: 'robots', content: 'max-image-preview:large' },
       {
         name: 'keywords',
         content:
@@ -131,13 +130,7 @@ export class ShadesComponent implements OnInit {
         rel: 'canonical',
         href: 'https://www.madisonavenueshutters.com/the-maxxmar-collection/shades/',
       },
-      { name: 'generator', content: 'All in One SEO (AIOSEO) 4.2.6.1' },
-      { property: 'og:locale', content: 'en_US' },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades | 窗帘,木百叶窗,斑马帘,布艺,卷帘',
-      },
+
       { property: 'og:type', content: 'activity' },
       {
         property: 'og:title',
@@ -154,7 +147,7 @@ export class ShadesComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/the-maxxmar-collection/shades/',
       },
-      { name: 'twitter:card', content: 'summary' },
+
       {
         name: 'twitter:title',
         content:
@@ -165,7 +158,7 @@ export class ShadesComponent implements OnInit {
         content:
           'Madison Avenue Window Fashion offers a variety of shades: dual shades, roller shades, sunset shades, roman shades, pleated shades, cellular shades, vertical shades,',
       },
-      { name: 'google', content: 'nositelinkssearchbox' },
+
       { property: 'og:title', content: 'Shades' },
       { property: 'og:type', content: 'article' },
       {
@@ -173,11 +166,7 @@ export class ShadesComponent implements OnInit {
         content:
           'https://www.madisonavenueshutters.com/the-maxxmar-collection/shades/',
       },
-      {
-        property: 'og:site_name',
-        content:
-          'Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
-      },
+
       {
         property: 'og:description',
         content:
