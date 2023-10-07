@@ -3,11 +3,7 @@
   (mouseenter)="onMouseEnter()"
   (mouseleave)="onMouseLeave()"
 >
-  <div
-    class="circle-wrapper animate__animated mb-2"
-    [class.animate__heartBeat]="isActive"
-    role="button"
-  >
+  <div class="circle-wrapper circle-wrapper-unhover mb-2" role="button">
     <i [class]="iconClass"></i>
   </div>
 

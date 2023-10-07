@@ -91,6 +91,9 @@ body {
 .icon-container:hover {
   .circle-wrapper {
     background-color: black;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+    border: 6px solid white;
+    transform: scale(1.1);
   }
 
   h2,
