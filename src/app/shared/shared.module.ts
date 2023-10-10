@@ -20,6 +20,7 @@ import { MaxxSliderTextComponent } from './maxx-slider-text/maxx-slider-text.com
 import { SliderComponent } from './slider/slider.component';
 import { RouterModule } from '@angular/router';
 import { BackToTopComponent } from './back-to-top/back-to-top.component';
+import { SocialMediaIconsComponent } from './social-media-icons/social-media-icons.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { BackToTopComponent } from './back-to-top/back-to-top.component';
     MaxxRequestQuoteComponent,
     MaxxReviewsComponent,
     BackToTopComponent,
+    SocialMediaIconsComponent,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
