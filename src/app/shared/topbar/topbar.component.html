@@ -1,9 +1,19 @@
 <div class="bg-dark d-none d-lg-block">
-  <div
-    class="container d-flex justify-content-between align-items-center space-x-2"
-  >
-    <app-social-media-icons [faLg]="true"></app-social-media-icons>
-    <div class="d-flex">
+  <div class="container d-flex align-items-center space-x-2">
+    <div class="d-flex" style="visibility: hidden">
+      <a
+        [routerLink]="link?.url"
+        class="px-1 text-white text-decoration-none"
+        *ngFor="let link of links"
+        >{{ link?.name }}</a
+      >
+    </div>
+
+    <app-social-media-icons
+      [faLg]="true"
+      class="mx-auto d-none d-xl-block"
+    ></app-social-media-icons>
+    <div class="d-flex ms-auto">
       <a
         [routerLink]="link?.url"
         class="px-1 text-white text-decoration-none"
