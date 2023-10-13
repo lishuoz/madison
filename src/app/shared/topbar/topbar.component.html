@@ -1,19 +1,27 @@
 <div class="bg-dark d-none d-lg-block">
-  <div class="container d-flex align-items-center space-x-2">
-    <div class="d-flex" style="visibility: hidden">
-      <a
-        [routerLink]="link?.url"
-        class="px-1 text-white text-decoration-none"
-        *ngFor="let link of links"
-        >{{ link?.name }}</a
+  <div
+    class="container-fluid d-flex justify-content-between align-items-center px-2"
+  >
+    <div
+      class="text-white"
+      style="
+        font-family: 'Pontano Sans', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+      "
+    >
+      Call
+      <a href="tel:+16473330303" class="text-white text-decoration-none"
+        >647-333-0303</a
       >
     </div>
 
-    <app-social-media-icons
-      [faLg]="true"
-      class="mx-auto d-none d-xl-block"
-    ></app-social-media-icons>
     <div class="d-flex ms-auto">
+      <app-social-media-icons
+        [faLg]="true"
+        class="mx-auto d-none d-xl-block"
+      ></app-social-media-icons>
+
       <a
         [routerLink]="link?.url"
         class="px-1 text-white text-decoration-none"
