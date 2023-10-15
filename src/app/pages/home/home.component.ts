@@ -75,7 +75,7 @@ export class HomeComponent implements OnInit {
     this.metaService.addTag({
       property: 'og:description',
       content:
-        'Madison Avenue Window Fashion Your complete satisfaction is always guaranteed by our exclusive Enjoy Madison Avenue Window Fashions in your home without concern about damage or repair for as long as you are there. Our lifetime warranty keeps you worry-free for the entire life',
+        'Madison Avenue Window Fashions Your complete satisfaction is always guaranteed by our exclusive Enjoy Madison Avenue Window Fashions in your home without concern about damage or repair for as long as you are there. Our lifetime warranty keeps you worry-free for the entire life',
     });
     this.metaService.addTag({
       property: 'og:image',

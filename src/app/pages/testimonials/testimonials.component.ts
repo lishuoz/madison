@@ -51,7 +51,7 @@ export class TestimonialsComponent implements OnInit {
     this.metaService.addTag({
       property: 'og:description',
       content:
-        'Madison Avenue Window Fashion offers an expansive collection of vertical and horizontal blinds and shades in a wide variety of colours. Our consultants are experienced, specially trained, experts ready to help you choose and install the blinds or shades best suited to your individual needs, styles and tastes. Our goal is for our',
+        'Madison Avenue Window Fashions offers an expansive collection of vertical and horizontal blinds and shades in a wide variety of colours. Our consultants are experienced, specially trained, experts ready to help you choose and install the blinds or shades best suited to your individual needs, styles and tastes. Our goal is for our',
     });
     this.metaService.addTag({
       property: 'og:image',

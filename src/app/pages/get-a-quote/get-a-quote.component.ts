@@ -22,7 +22,7 @@ export class GetAQuoteComponent implements OnInit {
 
   ngOnInit(): void {
     this.titleService.setTitle(
-      'Get a Free Quote Madison Avenue Window Fashion - Shutters, Blinds, Curtains & Shades Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades'
+      'Get a Free Quote Madison Avenue Window Fashions - Shutters, Blinds, Curtains & Shades Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades'
     );
 
     this.metaService.addTags([
@@ -52,7 +52,7 @@ export class GetAQuoteComponent implements OnInit {
       {
         property: 'og:title',
         content:
-          'Get a Free Quote Madison Avenue Window Fashion - Shutters, Blinds, Curtains & Shades Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
+          'Get a Free Quote Madison Avenue Window Fashions - Shutters, Blinds, Curtains & Shades Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
       },
       {
         property: 'og:description',
@@ -67,7 +67,7 @@ export class GetAQuoteComponent implements OnInit {
       {
         name: 'twitter:title',
         content:
-          'Get a Free Quote Madison Avenue Window Fashion - Shutters, Blinds, Curtains & Shades Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
+          'Get a Free Quote Madison Avenue Window Fashions - Shutters, Blinds, Curtains & Shades Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
       },
       {
         name: 'twitter:description',

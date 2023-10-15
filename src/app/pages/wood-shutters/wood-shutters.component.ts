@@ -33,7 +33,7 @@ export class WoodShuttersComponent implements OnInit {
       {
         name: 'description',
         content:
-          'Madison Avenue Window Fashion has been supplying & installing the best Wood shutters and California shutters in a variety of stains in Oakville and Burlington.',
+          'Madison Avenue Window Fashions has been supplying & installing the best Wood shutters and California shutters in a variety of stains in Oakville and Burlington.',
       },
       {
         name: 'keywords',
@@ -54,7 +54,7 @@ export class WoodShuttersComponent implements OnInit {
       {
         property: 'og:description',
         content:
-          'Madison Avenue Window Fashion has been supplying & installing the best Wood shutters and California shutters in a variety of stains in Oakville and Burlington.',
+          'Madison Avenue Window Fashions has been supplying & installing the best Wood shutters and California shutters in a variety of stains in Oakville and Burlington.',
       },
       {
         property: 'og:url',
@@ -70,7 +70,7 @@ export class WoodShuttersComponent implements OnInit {
       {
         name: 'twitter:description',
         content:
-          'Madison Avenue Window Fashion has been supplying & installing the best Wood shutters and California shutters in a variety of stains in Oakville and Burlington.',
+          'Madison Avenue Window Fashions has been supplying & installing the best Wood shutters and California shutters in a variety of stains in Oakville and Burlington.',
       },
 
       { property: 'og:title', content: 'Wood Shutters' },
@@ -84,7 +84,7 @@ export class WoodShuttersComponent implements OnInit {
       {
         property: 'og:description',
         content:
-          'At Madison Avenue Window Fashion we’ve been supplying and installing custom wood shutters to our customers for over 30 years. Whether it be the classic California Shutter style or a customized style and design of shutters, all our installations are performed by factory trained installers with years of experience working respectfully within customer',
+          'At Madison Avenue Window Fashions we’ve been supplying and installing custom wood shutters to our customers for over 30 years. Whether it be the classic California Shutter style or a customized style and design of shutters, all our installations are performed by factory trained installers with years of experience working respectfully within customer',
       },
       {
         property: 'og:image',

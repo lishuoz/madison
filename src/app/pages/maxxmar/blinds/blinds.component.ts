@@ -115,7 +115,7 @@ export class BlindsComponent implements OnInit {
       {
         property: 'og:description',
         content:
-          'At Madison Avenue Window Fashion, we offer an extensive selection of vertical and horizontal blinds in a wide variety of colours. View Madison Avenue Showroom Blinds.\n\nZurich Faux wood Blinds\n\nZurich Faux Wood Blinds is a unique blend of resin and wood fused together to',
+          'At Madison Avenue Window Fashions, we offer an extensive selection of vertical and horizontal blinds in a wide variety of colours. View Madison Avenue Showroom Blinds.\n\nZurich Faux wood Blinds\n\nZurich Faux Wood Blinds is a unique blend of resin and wood fused together to',
       },
       {
         property: 'og:image',

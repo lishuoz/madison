@@ -119,7 +119,7 @@ export class ShadesComponent implements OnInit {
       {
         name: 'description',
         content:
-          'Madison Avenue Window Fashion offers a variety of shades: dual shades, roller shades, sunset shades, roman shades, pleated shades, cellular shades, vertical shades,',
+          'Madison Avenue Window Fashions offers a variety of shades: dual shades, roller shades, sunset shades, roman shades, pleated shades, cellular shades, vertical shades,',
       },
       {
         name: 'keywords',
@@ -140,7 +140,7 @@ export class ShadesComponent implements OnInit {
       {
         property: 'og:description',
         content:
-          'Madison Avenue Window Fashion offers a variety of shades: dual shades, roller shades, sunset shades, roman shades, pleated shades, cellular shades, vertical shades,',
+          'Madison Avenue Window Fashions offers a variety of shades: dual shades, roller shades, sunset shades, roman shades, pleated shades, cellular shades, vertical shades,',
       },
       {
         property: 'og:url',
@@ -156,7 +156,7 @@ export class ShadesComponent implements OnInit {
       {
         name: 'twitter:description',
         content:
-          'Madison Avenue Window Fashion offers a variety of shades: dual shades, roller shades, sunset shades, roman shades, pleated shades, cellular shades, vertical shades,',
+          'Madison Avenue Window Fashions offers a variety of shades: dual shades, roller shades, sunset shades, roman shades, pleated shades, cellular shades, vertical shades,',
       },
 
       { property: 'og:title', content: 'Shades' },
@@ -170,7 +170,7 @@ export class ShadesComponent implements OnInit {
       {
         property: 'og:description',
         content:
-          'At Madison Avenue Window Fashions, we offer an extensive selection of shades in a wide variety of colors. View some of Madison Avenue Window Fashion Showroom Shades.',
+          'At Madison Avenue Window Fashions, we offer an extensive selection of shades in a wide variety of colors. View some of Madison Avenue Window Fashions Showroom Shades.',
       },
       {
         property: 'og:image',

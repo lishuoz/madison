@@ -22,7 +22,7 @@ export class ContactUsComponent implements OnInit {
 
   ngOnInit(): void {
     this.titleService.setTitle(
-      'Contact Us 联系我们 | Madison Avenue Window Fashion 麦迪森窗帘 Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades'
+      'Contact Us 联系我们 | Madison Avenue Window Fashions 麦迪森窗帘 Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades'
     );
     this.metaService.addTags([
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -50,7 +50,7 @@ export class ContactUsComponent implements OnInit {
       {
         property: 'og:title',
         content:
-          'Contact Us 联系我们 | Madison Avenue Window Fashion 麦迪森窗帘 Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
+          'Contact Us 联系我们 | Madison Avenue Window Fashions 麦迪森窗帘 Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
       },
       {
         property: 'og:description',
@@ -65,7 +65,7 @@ export class ContactUsComponent implements OnInit {
       {
         name: 'twitter:title',
         content:
-          'Contact Us 联系我们 | Madison Avenue Window Fashion 麦迪森窗帘 Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
+          'Contact Us 联系我们 | Madison Avenue Window Fashions 麦迪森窗帘 Madison Avenue Window Fashions - Shutters, Blinds, Curtains, Drapes & Shades',
       },
       {
         name: 'twitter:description',
