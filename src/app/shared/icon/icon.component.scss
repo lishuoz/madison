@@ -6,7 +6,8 @@
   height: 70px; /* Adjust the size of the circle */
   background-color: #5c6770; /* Background color of the circle */
   border-radius: 50%; /* Create the circular shape */
-  transition: border 1.5s ease, box-shadow 1.5s ease, transform 1s ease;
+  // transition: border 1s ease, box-shadow 1s ease, transform 0.5s ease;
+  transition: box-shadow 0.5s ease, transform 0.5s ease;
 }
 
 .circle-wrapper i {
