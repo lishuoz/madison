@@ -39,6 +39,6 @@ export class CategoryComponent implements OnInit {
       );
       if (!this.blogs.length) this.router.navigate(['/']);
     });
-    this.titleService.setTitle('Madison');
+    this.titleService.setTitle('Madison Avenue Window Fashions');
   }
 }
