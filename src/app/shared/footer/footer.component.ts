@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 import { AppService } from 'src/app/app.service';
 
 @Component({
@@ -9,7 +10,15 @@ import { AppService } from 'src/app/app.service';
 export class FooterComponent implements OnInit {
   links = this.appService.links;
 
-  constructor(private appService: AppService) {}
+  isThankYouPage: boolean = false;
 
-  ngOnInit(): void {}
+  constructor(private appService: AppService, private router: Router) {}
+
+  ngOnInit(): void {
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        this.isThankYouPage = this.router.url === '/thank-you';
+      }
+    });
+  }
 }

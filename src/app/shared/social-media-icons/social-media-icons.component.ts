@@ -9,6 +9,7 @@ export class SocialMediaIconsComponent implements OnInit {
   @Input() faLg? = false;
   @Input() fa2x? = false;
   @Input() isPrimary? = false;
+  @Input() isThankYouPage? = false;
 
   constructor() {}
 
