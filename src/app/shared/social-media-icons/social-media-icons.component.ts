@@ -7,6 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SocialMediaIconsComponent implements OnInit {
   @Input() faLg? = false;
+  @Input() fa2x? = false;
+  @Input() isPrimary? = false;
 
   constructor() {}
 

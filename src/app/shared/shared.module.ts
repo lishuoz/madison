@@ -66,6 +66,7 @@ import { SocialMediaIconsComponent } from './social-media-icons/social-media-ico
     MaxxRequestQuoteComponent,
     MaxxReviewsComponent,
     BackToTopComponent,
+    SocialMediaIconsComponent,
   ],
 })
 export class SharedModule {}

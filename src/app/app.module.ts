@@ -30,6 +30,8 @@ import { BlogOneWorldComponent } from './blogs/blog-one-world/blog-one-world.com
 import { BlogOriginBlindsShuttersComponent } from './blogs/blog-origin-blinds-shutters/blog-origin-blinds-shutters.component';
 import { BlogCaliforniaShuttersComponent } from './blogs/blog-california-shutters/blog-california-shutters.component';
 import { CategoryComponent } from './pages/category/category.component';
+import { ThankYouComponent } from './pages/thank-you/thank-you.component';
+import { SocialMediaIconsComponent } from './shared/social-media-icons/social-media-icons.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +62,7 @@ import { CategoryComponent } from './pages/category/category.component';
     BlogOriginBlindsShuttersComponent,
     BlogCaliforniaShuttersComponent,
     CategoryComponent,
+    ThankYouComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, SharedModule],
   providers: [],

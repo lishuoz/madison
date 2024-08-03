@@ -24,6 +24,7 @@ import { BlogOneWorldComponent } from './blogs/blog-one-world/blog-one-world.com
 import { BlogOriginBlindsShuttersComponent } from './blogs/blog-origin-blinds-shutters/blog-origin-blinds-shutters.component';
 import { BlogCaliforniaShuttersComponent } from './blogs/blog-california-shutters/blog-california-shutters.component';
 import { CategoryComponent } from './pages/category/category.component';
+import { ThankYouComponent } from './pages/thank-you/thank-you.component';
 
 const routes: Routes = [
   {
@@ -121,6 +122,10 @@ const routes: Routes = [
   {
     path: 'category/:tag',
     component: CategoryComponent,
+  },
+  {
+    path: 'thank-you',
+    component: ThankYouComponent,
   },
 ];
 
