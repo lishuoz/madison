@@ -1,5 +1,20 @@
 <div>
   <a
+    href="https://www.instagram.com/madisonavenueshutters"
+    title="Instagram"
+    target="_blank"
+    data-title
+    data-toggle="tooltip"
+    title
+    data-original-title="Instagram"
+    ><i
+      class="fa-brands fa-instagram px-1"
+      [class.fa-lg]="faLg"
+      [class.fa-2x]="fa2x"
+      [class]="isPrimary ? 'text-primary' : 'text-white'"
+    ></i
+  ></a>
+  <a
     href="https://www.facebook.com/profile.php?id=61551517864654"
     title="Facebook"
     target="_blank"
@@ -15,15 +30,30 @@
     ></i
   ></a>
   <a
-    href="https://www.instagram.com/madisonavenueshutters"
-    title="Instagram"
+    href="https://www.youtube.com/channel/UCaJydRfcGDlUMTa5rjFTMvQ"
+    title="Youtube"
     target="_blank"
     data-title
     data-toggle="tooltip"
     title
-    data-original-title="Instagram"
+    data-original-title="Youtube"
     ><i
-      class="fa-brands fa-instagram px-1"
+      class="fa-brands fa-youtube px-1"
+      [class.fa-lg]="faLg"
+      [class.fa-2x]="fa2x"
+      [class]="isPrimary ? 'text-primary' : 'text-white'"
+    ></i
+  ></a>
+  <a
+    href="https://www.tiktok.com/@madisonavenueshutters"
+    title="Tiktok"
+    target="_blank"
+    data-title
+    data-toggle="tooltip"
+    title
+    data-original-title="Tiktok"
+    ><i
+      class="fa-brands fa-tiktok px-1"
       [class.fa-lg]="faLg"
       [class.fa-2x]="fa2x"
       [class]="isPrimary ? 'text-primary' : 'text-white'"
@@ -53,23 +83,9 @@
     data-toggle="tooltip"
     title
     data-original-title="Pinterest"
+    *ngIf="!isThankYouPage"
     ><i
       class="fa-brands fa-pinterest px-1"
-      [class.fa-lg]="faLg"
-      [class.fa-2x]="fa2x"
-      [class]="isPrimary ? 'text-primary' : 'text-white'"
-    ></i
-  ></a>
-  <a
-    href="https://www.youtube.com/channel/UCaJydRfcGDlUMTa5rjFTMvQ"
-    title="Youtube"
-    target="_blank"
-    data-title
-    data-toggle="tooltip"
-    title
-    data-original-title="Youtube"
-    ><i
-      class="fa-brands fa-youtube px-1"
       [class.fa-lg]="faLg"
       [class.fa-2x]="fa2x"
       [class]="isPrimary ? 'text-primary' : 'text-white'"
