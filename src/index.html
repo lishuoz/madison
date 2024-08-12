@@ -48,6 +48,21 @@
         phone_conversion_number: "(647) 333-0303",
       });
     </script>
+    <!-- Event snippet for Lead Form | Google Build conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-11087804042/-5e-CJ6BsrYZEIrtiacp",
+          event_callback: callback,
+        });
+        return false;
+      }
+    </script>
 
     <!-- Google Tag Manager -->
     <script>
