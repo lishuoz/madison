@@ -6,6 +6,19 @@ import { Injectable } from '@angular/core';
 export class BlogService {
   blogs: any[] = [
     {
+      title: 'Blackout Frame System - Roller Shades: A Modern Solution for Ultimate Light Control',
+      tags: [
+        'Blackout Frame System',
+        'Roller Shades',
+        'Light Control',
+      ],
+      image: 'assets/images/blog/Blackout Frame System1.jpg',
+      date: 'August 21st, 2024',
+      path: '/Blackout-Frame-System-Roller-Shades',
+      slug: '<p>The Blackout Frame System - Roller Shades is a sleek and modern solution for your window treatment needs, offering superior light control and privacy. These blackout roller shades are expertly designed to completely block out light, making them the perfect choice for bedrooms, home theaters, or any space where controlling light is crucial.</p>',
+      contents: '',
+    },
+    {
       title: '投票选出你最爱的窗帘（参与投票有奖）',
       tags: [
         'Blinds',

@@ -31,7 +31,7 @@ import { BlogOriginBlindsShuttersComponent } from './blogs/blog-origin-blinds-sh
 import { BlogCaliforniaShuttersComponent } from './blogs/blog-california-shutters/blog-california-shutters.component';
 import { CategoryComponent } from './pages/category/category.component';
 import { ThankYouComponent } from './pages/thank-you/thank-you.component';
-import { SocialMediaIconsComponent } from './shared/social-media-icons/social-media-icons.component';
+import { BlogBlackoutFrameSystemRollerShadesComponent } from './blogs/blog-blackout-frame-system-roller-shades/blog-blackout-frame-system-roller-shades.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +63,7 @@ import { SocialMediaIconsComponent } from './shared/social-media-icons/social-me
     BlogCaliforniaShuttersComponent,
     CategoryComponent,
     ThankYouComponent,
+    BlogBlackoutFrameSystemRollerShadesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, SharedModule],
   providers: [],

@@ -25,6 +25,7 @@ import { BlogOriginBlindsShuttersComponent } from './blogs/blog-origin-blinds-sh
 import { BlogCaliforniaShuttersComponent } from './blogs/blog-california-shutters/blog-california-shutters.component';
 import { CategoryComponent } from './pages/category/category.component';
 import { ThankYouComponent } from './pages/thank-you/thank-you.component';
+import { BlogBlackoutFrameSystemRollerShadesComponent } from './blogs/blog-blackout-frame-system-roller-shades/blog-blackout-frame-system-roller-shades.component';
 
 const routes: Routes = [
   {
@@ -118,6 +119,10 @@ const routes: Routes = [
   {
     path: '天然木百叶窗california-shutters-oakville',
     component: BlogCaliforniaShuttersComponent,
+  },
+  {
+    path: 'Blackout-Frame-System-Roller-Shades',
+    component: BlogBlackoutFrameSystemRollerShadesComponent,
   },
   {
     path: 'category/:tag',
