@@ -26,6 +26,7 @@ import { BlogCaliforniaShuttersComponent } from './blogs/blog-california-shutter
 import { CategoryComponent } from './pages/category/category.component';
 import { ThankYouComponent } from './pages/thank-you/thank-you.component';
 import { BlogBlackoutFrameSystemRollerShadesComponent } from './blogs/blog-blackout-frame-system-roller-shades/blog-blackout-frame-system-roller-shades.component';
+import { BlogRollerShadeOakvilleComponent } from './blogs/blog-roller-shade-oakville/blog-roller-shade-oakville.component';
 
 const routes: Routes = [
   {
@@ -123,6 +124,10 @@ const routes: Routes = [
   {
     path: 'Blackout-Frame-System-Roller-Shades',
     component: BlogBlackoutFrameSystemRollerShadesComponent,
+  },
+  {
+    path: 'Roller-Shade-Oakville',
+    component: BlogRollerShadeOakvilleComponent,
   },
   {
     path: 'category/:tag',

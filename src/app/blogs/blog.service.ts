@@ -6,6 +6,19 @@ import { Injectable } from '@angular/core';
 export class BlogService {
   blogs: any[] = [
     {
+      title: 'Elevate Your Space with Roller Shade: The Perfect Blend of Style and Functionality!',
+      tags: [
+        'Roller Blind',
+        'Roller Shade',
+        'Window Treatments',
+      ],
+      image: 'assets/images/blog/Roller-Shade-Oakville1.jpg',
+      date: 'August 30rd, 2024',
+      path: '/Roller-Shade-Oakville',
+      slug: '<p>Roller Shades, also known as Roller Blind, provide an ideal mix of decorative flair and practical functionality for your windows. At Madison Avenue Window Fashions, we provide a wide selection of roller shades in various fabrics, textures, and colors, designed to enhance and complement any room decor effortlessly.</p>',
+      contents: '',
+    },
+    {
       title: 'Blackout Frame System - Roller Shades: A Modern Solution for Ultimate Light Control',
       tags: [
         'Blackout Frame System',
