@@ -6,12 +6,18 @@ import { Injectable } from '@angular/core';
 export class BlogService {
   blogs: any[] = [
     {
-      title: 'Elevate Your Space with Roller Shade: The Perfect Blend of Style and Functionality!',
-      tags: [
-        'Roller Blind',
-        'Roller Shade',
-        'Window Treatments',
-      ],
+      title: 'Unlock Versatility and Elegance with Dual Shades',
+      tags: ['Dual Shades', 'Zebra Shades', 'Blinds', 'Window Coverings'],
+      image: 'assets/images/blog/Dual-Shade-Toronto1.jpg',
+      date: 'September 6th, 2024',
+      path: '/Dual-Shade-Toronto',
+      slug: "<p>In the world of window coverings, finding the perfect balance between style, functionality, and privacy can be challenging. Enter Dual Shades, also known as Zebra Shades (Zebra Blinds)—a modern and versatile solution that combines the best of both worlds. Whether you're looking to enhance the aesthetic of your living space or improve its functionality, Dual Shades are an excellent choice for any room in your home.</p>",
+      contents: '',
+    },
+    {
+      title:
+        'Elevate Your Space with Roller Shade: The Perfect Blend of Style and Functionality!',
+      tags: ['Roller Blind', 'Roller Shade', 'Window Treatments'],
       image: 'assets/images/blog/Roller-Shade-Oakville1.jpg',
       date: 'August 30rd, 2024',
       path: '/Roller-Shade-Oakville',
@@ -19,12 +25,9 @@ export class BlogService {
       contents: '',
     },
     {
-      title: 'Blackout Frame System - Roller Shades: A Modern Solution for Ultimate Light Control',
-      tags: [
-        'Blackout Frame System',
-        'Roller Shades',
-        'Light Control',
-      ],
+      title:
+        'Blackout Frame System - Roller Shades: A Modern Solution for Ultimate Light Control',
+      tags: ['Blackout Frame System', 'Roller Shades', 'Light Control'],
       image: 'assets/images/blog/Blackout Frame System1.jpg',
       date: 'August 21st, 2024',
       path: '/Blackout-Frame-System-Roller-Shades',

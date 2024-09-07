@@ -33,6 +33,7 @@ import { CategoryComponent } from './pages/category/category.component';
 import { ThankYouComponent } from './pages/thank-you/thank-you.component';
 import { BlogBlackoutFrameSystemRollerShadesComponent } from './blogs/blog-blackout-frame-system-roller-shades/blog-blackout-frame-system-roller-shades.component';
 import { BlogRollerShadeOakvilleComponent } from './blogs/blog-roller-shade-oakville/blog-roller-shade-oakville.component';
+import { BlogDualShadeTorontoComponent } from './blogs/blog-dual-shade-toronto/blog-dual-shade-toronto.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +67,7 @@ import { BlogRollerShadeOakvilleComponent } from './blogs/blog-roller-shade-oakv
     ThankYouComponent,
     BlogBlackoutFrameSystemRollerShadesComponent,
     BlogRollerShadeOakvilleComponent,
+    BlogDualShadeTorontoComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, SharedModule],
   providers: [],
