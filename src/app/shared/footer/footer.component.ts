@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { AppService } from 'src/app/app.service';
+import { BlogService } from 'src/app/blogs/blog.service';
 
 @Component({
   selector: 'app-footer',
@@ -12,10 +13,16 @@ export class FooterComponent implements OnInit {
 
   isThankYouPage: boolean = false;
 
-  constructor(private appService: AppService, private router: Router) {}
+  recentPosts = this.blogService.blogs.slice(0, 3);
+
+  constructor(
+    private appService: AppService,
+    private router: Router,
+    private blogService: BlogService,
+  ) {}
 
   ngOnInit(): void {
-    this.router.events.subscribe((event) => {
+    this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
         this.isThankYouPage = this.router.url === '/thank-you';
       }

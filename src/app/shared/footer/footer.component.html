@@ -100,30 +100,11 @@
         <ul class="ps-0">
           <li
             class="no-bullet list-item pb-1"
-            routerLink="/多伦多窗帘最爱"
+            [routerLink]="post?.path"
             role="button"
+            *ngFor="let post of recentPosts"
           >
-            <a class="text-white text-decoration-none"
-              >投票选出你最爱的窗帘（参与投票有奖）</a
-            >
-          </li>
-          <li
-            class="no-bullet list-item pb-1"
-            routerLink="/oakville窗帘"
-            role="button"
-          >
-            <a class="text-white text-decoration-none"
-              >新的一年，为了你的家园，我们一起砥砺前行
-            </a>
-          </li>
-          <li
-            class="no-bullet list-item pb-1"
-            routerLink="/5-major-benefits-of-solid-wood-shutters-oakville"
-            role="button"
-          >
-            <a class="text-white text-decoration-none"
-              >5 Major Benefits of Solid Wood Shutters 木百叶窗的优点
-            </a>
+            <a class="text-white text-decoration-none">{{ post?.title }}</a>
           </li>
         </ul>
         <div>
