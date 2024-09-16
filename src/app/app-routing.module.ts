@@ -28,6 +28,7 @@ import { ThankYouComponent } from './pages/thank-you/thank-you.component';
 import { BlogBlackoutFrameSystemRollerShadesComponent } from './blogs/blog-blackout-frame-system-roller-shades/blog-blackout-frame-system-roller-shades.component';
 import { BlogRollerShadeOakvilleComponent } from './blogs/blog-roller-shade-oakville/blog-roller-shade-oakville.component';
 import { BlogDualShadeTorontoComponent } from './blogs/blog-dual-shade-toronto/blog-dual-shade-toronto.component';
+import { BlogCustomWoodShuttersComponent } from './blogs/blog-custom-wood-shutters/blog-custom-wood-shutters.component';
 
 const routes: Routes = [
   {
@@ -133,6 +134,10 @@ const routes: Routes = [
   {
     path: 'Dual-Shade-Toronto',
     component: BlogDualShadeTorontoComponent,
+  },
+  {
+    path: 'custom-wood-shutters',
+    component: BlogCustomWoodShuttersComponent,
   },
   {
     path: 'category/:tag',

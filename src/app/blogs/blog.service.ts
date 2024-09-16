@@ -6,6 +6,16 @@ import { Injectable } from '@angular/core';
 export class BlogService {
   blogs: any[] = [
     {
+      title:
+        'Why Wood Shutters Are the Perfect Choice for Classy and Safe Living Spaces',
+      tags: ['Shutters', 'Wood Shutters', 'Window Coverings'],
+      image: 'assets/images/blog/custom-wood-shutters1.jpg',
+      date: 'September 13th, 2024',
+      path: '/custom-wood-shutters',
+      slug: "<p>When it comes to enhancing your home's decor and functionality, custom wood shutters offer a superior solution. Crafted from premium North American hardwood, these window coverings provide unmatched durability and timeless charm, making them a valuable investment for any residence.</p>",
+      contents: '',
+    },
+    {
       title: 'Unlock Versatility and Elegance with Dual Shades',
       tags: ['Dual Shades', 'Zebra Shades', 'Blinds', 'Window Coverings'],
       image: 'assets/images/blog/Dual-Shade-Toronto1.jpg',
