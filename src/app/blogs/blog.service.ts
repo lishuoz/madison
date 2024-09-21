@@ -7,6 +7,16 @@ export class BlogService {
   blogs: any[] = [
     {
       title:
+        'Transform Your Home with Stylish Cellular Shades: Perfect Window Coverings in Toronto',
+      tags: ['Blinds', 'Shades', 'Cellular Shade', 'Window Coverings'],
+      image: 'assets/images/blog/Cellular-Shade-Toronto1.jpg',
+      date: 'September 20th, 2024',
+      path: '/Cellular-Shade-Toronto',
+      slug: '<p>Looking for the perfect window coverings in Toronto? Cellular Shades (also called Honeycomb Shades) are an excellent choice, offering a seamless combination of style, versatility, and energy-saving advantages.</p>',
+      contents: '',
+    },
+    {
+      title:
         'Why Wood Shutters Are the Perfect Choice for Classy and Safe Living Spaces',
       tags: ['Shutters', 'Wood Shutters', 'Window Coverings'],
       image: 'assets/images/blog/custom-wood-shutters1.jpg',
