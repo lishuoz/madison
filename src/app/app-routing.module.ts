@@ -30,6 +30,7 @@ import { BlogRollerShadeOakvilleComponent } from './blogs/blog-roller-shade-oakv
 import { BlogDualShadeTorontoComponent } from './blogs/blog-dual-shade-toronto/blog-dual-shade-toronto.component';
 import { BlogCustomWoodShuttersComponent } from './blogs/blog-custom-wood-shutters/blog-custom-wood-shutters.component';
 import { BlogCellularShadeTorontoComponent } from './blogs/blog-cellular-shade-toronto/blog-cellular-shade-toronto.component';
+import { BlogSunsetShadeTorontoComponent } from './blogs/blog-sunset-shade-toronto/blog-sunset-shade-toronto.component';
 
 const routes: Routes = [
   {
@@ -143,6 +144,10 @@ const routes: Routes = [
   {
     path: 'Cellular-Shade-Toronto',
     component: BlogCellularShadeTorontoComponent,
+  },
+  {
+    path: 'Sunset-Shade-Toronto',
+    component: BlogSunsetShadeTorontoComponent,
   },
   {
     path: 'category/:tag',

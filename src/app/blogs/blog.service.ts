@@ -7,6 +7,16 @@ export class BlogService {
   blogs: any[] = [
     {
       title:
+        'Premium Custom Window Coverings in Toronto: Experience the Sophistication of Sunset Shades',
+      tags: ['Blinds', 'Shades', 'Sunset Shade', 'Window Coverings'],
+      image: 'assets/images/blog/Sunset-Shade-Toronto1.jpg',
+      date: 'September 27th, 2024',
+      path: '/Sunset-Shade-Toronto',
+      slug: '<p>Looking to enhance your modern home with both style and functionality? Sunset Shades are the ideal custom window coverings for homeowners in the Greater Toronto Area.</p>',
+      contents: '',
+    },
+    {
+      title:
         'Transform Your Home with Stylish Cellular Shades: Perfect Window Coverings in Toronto',
       tags: ['Blinds', 'Shades', 'Cellular Shade', 'Window Coverings'],
       image: 'assets/images/blog/Cellular-Shade-Toronto1.jpg',
